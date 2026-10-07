@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "areas": [
+    {
+      "id": "finance",
+      "title": {
+        "pt-BR": "Financeiro",
+        "en": "Finance"
+      }
+    },
+    {
+      "id": "marketing",
+      "title": {
+        "pt-BR": "Marketing",
+        "en": "Marketing"
+      }
+    },
+    {
+      "id": "sales",
+      "title": {
+        "pt-BR": "Vendas",
+        "en": "Sales"
+      }
+    },
+    {
+      "id": "people",
+      "title": {
+        "pt-BR": "Pessoas",
+        "en": "People"
+      }
+    },
+    {
+      "id": "operations",
+      "title": {
+        "pt-BR": "Operações",
+        "en": "Operations"
+      }
+    },
+    {
+      "id": "research",
+      "title": {
+        "pt-BR": "Pesquisa",
+        "en": "Research"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "three-statement-model",
+      "area": "finance",
+      "title": {
+        "pt-BR": "Modelo financeiro integrado",
+        "en": "Integrated financial model"
+      },
+      "description": {
+        "pt-BR": "Planilha com resultado, balanço e fluxo de caixa ligados entre si",
+        "en": "Spreadsheet linking income statement, balance sheet and cash flow"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/finance/3-statement-model"
+      }
+    },
+    {
+      "id": "comps-analysis",
+      "area": "finance",
+      "title": {
+        "pt-BR": "Análise de empresas comparáveis",
+        "en": "Comparable companies analysis"
+      },
+      "description": {
+        "pt-BR": "Planilha de valuation comparando empresas do mesmo setor",
+        "en": "Valuation spreadsheet comparing companies in the same sector"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/finance/comps-analysis"
+      }
+    },
+    {
+      "id": "excel-author",
+      "area": "finance",
+      "featured": true,
+      "title": {
+        "pt-BR": "Planilhas financeiras auditáveis",
+        "en": "Auditable financial spreadsheets"
+      },
+      "description": {
+        "pt-BR": "Planilhas com fórmulas vivas, entradas destacadas e conferência fácil",
+        "en": "Spreadsheets with live formulas, highlighted inputs and easy review"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/finance/excel-author"
+      }
+    },
+    {
+      "id": "lbo-model",
+      "area": "finance",
+      "title": {
+        "pt-BR": "Compra alavancada",
+        "en": "Leveraged buyout"
+      },
+      "description": {
+        "pt-BR": "Planilha de compra alavancada com retorno do investimento (TIR e múltiplo)",
+        "en": "Leveraged buyout spreadsheet with investment returns (IRR and multiple)"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/finance/lbo-model"
+      }
+    },
+    {
+      "id": "claude-design",
+      "area": "marketing",
+      "featured": true,
+      "title": {
+        "pt-BR": "Design de páginas e apresentações",
+        "en": "Page and deck design"
+      },
+      "description": {
+        "pt-BR": "Cria páginas, apresentações e protótipos em HTML, com variações para comparar",
+        "en": "Creates pages, decks and prototypes in HTML, with variants to compare"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/creative/claude-design"
+      }
+    },
+    {
+      "id": "popular-web-designs",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Estilos de sites conhecidos",
+        "en": "Well-known website styles"
+      },
+      "description": {
+        "pt-BR": "Catálogo de 54 identidades visuais de sites famosos para usar como ponto de partida",
+        "en": "Catalogue of 54 visual identities from well-known sites to use as a starting point"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/creative/popular-web-designs"
+      }
+    },
+    {
+      "id": "sketch",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Esboços de tela",
+        "en": "Screen sketches"
+      },
+      "description": {
+        "pt-BR": "Faz de 2 a 3 versões rápidas de uma tela para você comparar",
+        "en": "Makes 2 to 3 quick versions of a screen for you to compare"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/creative/sketch"
+      }
+    },
+    {
+      "id": "reddit-reading",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Leitura do Reddit",
+        "en": "Reading Reddit"
+      },
+      "description": {
+        "pt-BR": "Lê comunidades, buscas e discussões do Reddit, sem conta",
+        "en": "Reads Reddit communities, searches and threads, no account needed"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/social-media/reddit-reading"
+      }
+    },
+    {
+      "id": "competitor-news",
+      "area": "sales",
+      "featured": true,
+      "title": {
+        "pt-BR": "Notícias dos concorrentes",
+        "en": "Competitor news"
+      },
+      "description": {
+        "pt-BR": "Acompanha empresas que você escolher e resume só as novidades que importam, com fontes",
+        "en": "Follows the companies you choose and summarizes only the news that matters, with sources"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/research/competitor-news-monitor"
+      }
+    },
+    {
+      "id": "price-monitor",
+      "area": "sales",
+      "title": {
+        "pt-BR": "Acompanhamento de preços",
+        "en": "Price tracking"
+      },
+      "description": {
+        "pt-BR": "Vigia o preço de produtos, passagens e anúncios e avisa quando chegar ao valor desejado",
+        "en": "Watches prices of products, flights and listings and alerts you at your target"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/productivity/product-price-monitor"
+      }
+    },
+    {
+      "id": "simple-english",
+      "area": "people",
+      "title": {
+        "pt-BR": "Texto simples e direto",
+        "en": "Plain, direct writing"
+      },
+      "description": {
+        "pt-BR": "Reescreve textos em frases curtas e claras, sem ambiguidade",
+        "en": "Rewrites text in short, clear sentences with no ambiguity"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/creative/simple-english"
+      }
+    },
+    {
+      "id": "llm-wiki",
+      "area": "operations",
+      "featured": true,
+      "title": {
+        "pt-BR": "Base de conhecimento",
+        "en": "Knowledge base"
+      },
+      "description": {
+        "pt-BR": "Monta e consulta uma base de notas ligadas entre si sobre o que a equipe sabe",
+        "en": "Builds and queries a base of linked notes about what the team knows"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/research/llm-wiki"
+      }
+    },
+    {
+      "id": "arxiv",
+      "area": "research",
+      "title": {
+        "pt-BR": "Artigos científicos (arXiv)",
+        "en": "Scientific papers (arXiv)"
+      },
+      "description": {
+        "pt-BR": "Busca artigos por assunto, autor ou categoria, sem conta",
+        "en": "Searches papers by topic, author or category, no account needed"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "skills/research/arxiv"
+      }
+    },
+    {
+      "id": "rss-feeds",
+      "area": "research",
+      "title": {
+        "pt-BR": "Leitura de feeds",
+        "en": "Reading feeds"
+      },
+      "description": {
+        "pt-BR": "Lê feeds de notícias e blogs e descobre o feed escondido atrás de uma página",
+        "en": "Reads news and blog feeds and finds the feed behind a page"
+      },
+      "source": {
+        "type": "hermes",
+        "path": "optional-skills/research/rss-feeds"
+      }
+    }
+  ]
+}
