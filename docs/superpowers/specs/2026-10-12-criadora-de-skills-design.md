@@ -1,0 +1,70 @@
+# Criadora de Skills de Trabalho — desenho
+
+Data: 12/10/2026. Síntese de skill-creator e writing-skills aprovada na conversa. Esta especificação registra o desenho para revisão antes do plano de implementação.
+
+## Intenção e experiência
+
+Criar e melhorar skills próprias do SquadOS para entregas reais de trabalho. O usuário pede naturalmente o que precisa; a Criadora identifica a intenção, a maturidade do material e o resultado esperado, escolhe a abordagem e carrega as referências pertinentes.
+
+A preferência aprovada é liberdade de execução, roteamento automático e progressive disclosure. A skill ensina decisões que melhoram resultados e deixa o agente adaptar o método à tarefa. Perguntas servem para resolver informações que mudam a entrega; o contexto disponível pode resolvê-las. O usuário pode corrigir a abordagem ou determinar diretamente o resultado.
+
+Exemplos de uso:
+
+- “Crie uma skill de Copywriter com base nesta pesquisa”: aproveitar a pesquisa e concentrar o trabalho na autoria e avaliação.
+- “Pesquise como fazer apresentações excelentes em HTML”: pesquisar e entregar a síntese solicitada; a criação do pacote pertence a uma etapa posterior neste projeto.
+- “Melhore esta skill, ela pergunta demais”: investigar o atrito e fazer uma revisão proporcional, preservando o restante.
+- “Este pacote serve para o Studio?”: inspecionar a compatibilidade e apresentar evidências.
+
+O caminho escolhido é uma decisão interna do agente. A conversa usa a linguagem do trabalho e do resultado solicitado. Os exemplos orientam, sem constituir uma lista fechada de possibilidades.
+
+## Organização mínima
+
+Pacote previsto:
+
+```text
+skills/create-work-skills/
+  SKILL.md
+  references/
+    research.md
+    quality.md
+```
+
+`SKILL.md` contém propósito, interpretação do pedido, princípios de autoria, encaminhamento às referências e condições essenciais de entrega. Deve permanecer curto o suficiente para ser lido inteiro sem carregar a pesquisa detalhada.
+
+`references/research.md` orienta pesquisa profissional: fontes primárias, métodos, materiais e vídeos recentes quando relevantes, pacotes similares, atribuição e síntese aplicável. É carregado quando há pesquisa a fazer ou evidência a atualizar.
+
+`references/quality.md` orienta avaliação do resultado e compatibilidade do pacote. É carregado quando há uma skill a criar, revisar ou verificar. Reúne exemplos de pedidos, avaliação de artefatos e verificações de distribuição no Studio.
+
+Scripts, modelos e recursos adicionais entram quando a execução demonstrar uma necessidade concreta. As referências são autorais e utilizáveis sem instalar skill-creator ou superpowers.
+
+## Método e liberdade
+
+O agente parte do pedido e do material existente. Pesquisa, síntese, autoria e avaliação são recursos que ele combina conforme o trabalho; a profundidade acompanha a novidade, a complexidade e as consequências da tarefa. Uma correção pequena aproveita o contexto existente, enquanto uma nova especialista exige entender seus pedidos reais e suas entregas.
+
+De skill-creator, aproveitar escopo claro, conteúdo que acrescenta conhecimento útil e divulgação progressiva. De writing-skills, aproveitar avaliação observável e refinamento baseado em falhas demonstradas. Comparação com e sem a skill é especialmente útil para demonstrar o valor de instruções novas ou mudanças substanciais; seu uso deve justificar o esforço. A qualidade é julgada no resultado entregue, não pela reprodução de títulos ou frases.
+
+As futuras especialistas seguem a mesma experiência: um Copywriter identifica se o pedido exige email, página ou carrossel e consulta a referência adequada. Uma especialista em apresentações reconhece audiência, propósito e conteúdo e escolhe como organizar o HTML. O usuário especifica o trabalho; o agente escolhe a execução.
+
+## Pesquisa, qualidade e compatibilidade
+
+A pesquisa registra fontes e o que foi efetivamente consultado, distinguindo páginas, transcrições e conteúdo audiovisual. Recursos de terceiros exigem licença e atribuição adequadas. A síntese deve ajudar a fazer o trabalho; quantidade de links não é critério suficiente.
+
+As avaliações usam pedidos representativos e critérios próprios do artefato: texto adequado ao contexto, números verificáveis, apresentação legível, recursos acessíveis e comportamento que preserva a intenção. Incluir situações incompletas e pedidos próximos ajuda a avaliar perguntas e roteamento. Se faltar ferramenta ou dado essencial, esclarecer a limitação e entregar o que puder ser sustentado.
+
+No pacote, aplicar as regras do repositório: identificador em inglês igual à pasta, descrição breve e documentação em PT-BR, licença declarada e recursos UTF-8 nas pastas aceitas. O adaptador admite até 100 arquivos e 4 MiB, sem binários. A publicação no catálogo exige conferir o contrato atual do Desktop e coordenar o espelho. Essas exigências são de distribuição, não um roteiro de interação imposto a toda tarefa.
+
+## Aceitação
+
+- [ ] Pedidos naturais encaminham o trabalho sem exigir que a pessoa conheça modos.
+- [ ] A skill usa o contexto existente e faz perguntas quando a resposta altera materialmente a entrega.
+- [ ] Referências detalhadas são carregadas conforme a necessidade do pedido.
+- [ ] Um pedido de pesquisa gera pesquisa; uma revisão pequena recebe uma revisão proporcional.
+- [ ] A avaliação examina entregas e falhas observáveis, com esforço justificado pelo trabalho.
+- [ ] O pacote é autoral, autocontido e verificável contra as regras de contratação do Studio.
+- [ ] O relatório distingue verificações executadas de evidências ainda pendentes.
+
+## Entrega e sequência
+
+Footprint da implementação: `skills/create-work-skills/` e evidências de pesquisa/avaliação em `docs/` quando necessárias. Este passo estabelece a Criadora. A escolha definitiva do catálogo e a pesquisa das demais especialistas seguem a sequência solicitada pelo usuário. Publicação prevista ao final; ainda não realizada.
+
+Referências: [skill-creator da Anthropic](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md), [writing-skills](https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md), [Agent Skills](https://agentskills.io/specification), versões locais lidas na sessão e contrato descrito em AGENTS.md/CONTRIBUTING.md deste repositório.
