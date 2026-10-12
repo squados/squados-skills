@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "text",
+    "start_us",
+    "end_us"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "start_us": {
+      "type": "integer"
+    },
+    "end_us": {
+      "type": "integer"
+    }
+  }
+}

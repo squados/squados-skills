@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "fonts",
+    "accent",
+    "background"
+  ],
+  "properties": {
+    "fonts": {
+      "type": "object"
+    },
+    "accent": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    }
+  }
+}

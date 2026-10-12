@@ -1,0 +1,13 @@
+{
+  "types": [
+    "active-word",
+    "block",
+    "embedded",
+    "impact",
+    "karaoke",
+    "keyword",
+    "one-word",
+    "rail"
+  ],
+  "note": "Recipes use source evidence and word anchors; do not invent data or copy example content"
+}

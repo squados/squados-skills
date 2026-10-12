@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "duration_us",
+    "words",
+    "candidates"
+  ],
+  "properties": {
+    "duration_us": {
+      "type": "integer"
+    },
+    "words": {
+      "type": "array"
+    },
+    "candidates": {
+      "type": "array"
+    }
+  }
+}

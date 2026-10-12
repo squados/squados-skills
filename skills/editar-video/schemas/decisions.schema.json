@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "removals",
+    "caption_corrections"
+  ],
+  "properties": {
+    "removals": {
+      "type": "array"
+    },
+    "caption_corrections": {
+      "type": "object"
+    }
+  }
+}

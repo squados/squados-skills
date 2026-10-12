@@ -1,0 +1,16 @@
+{
+  "name": "dfa",
+  "version": "1.2.0",
+  "license": "MIT",
+  "author": {
+    "name": "Devon Govett",
+    "email": "devongovett@gmail.com"
+  },
+  "repository": {
+    "url": "git+ssh://git@github.com/devongovett/dfa.git",
+    "type": "git"
+  },
+  "gitHead": "3f5e603e5082caedabefefdf53e8a6ca3111e966",
+  "source": "https://raw.githubusercontent.com/devongovett/dfa/3f5e603e5082caedabefefdf53e8a6ca3111e966/README.md",
+  "note": "No standalone license file in exact source tree; preserve declaration and README; review before release"
+}

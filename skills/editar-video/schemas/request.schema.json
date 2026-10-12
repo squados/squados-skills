@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "source_name",
+    "aspect"
+  ],
+  "properties": {
+    "source_name": {
+      "type": "string"
+    },
+    "aspect": {
+      "type": "string"
+    }
+  }
+}

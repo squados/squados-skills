@@ -1,0 +1,11 @@
+{
+  "types": [
+    "cut",
+    "dissolve",
+    "match-graphic",
+    "slide",
+    "wipe",
+    "zoom-bridge"
+  ],
+  "note": "Recipes use source evidence and word anchors; do not invent data or copy example content"
+}

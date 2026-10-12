@@ -1,0 +1,9 @@
+{
+  "fonts": {
+    "base": "Inter",
+    "emphasis": "Sora",
+    "contrast": "Bebas Neue"
+  },
+  "accent": "#baff54",
+  "background": "#101217"
+}

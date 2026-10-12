@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "beats",
+    "style"
+  ],
+  "properties": {
+    "beats": {
+      "type": "array"
+    },
+    "style": {
+      "type": "object"
+    }
+  }
+}

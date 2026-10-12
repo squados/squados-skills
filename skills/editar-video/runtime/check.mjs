@@ -1,0 +1,11 @@
+import {spawnSync} from 'node:child_process';
+import {writeFileSync} from 'node:fs';
+import path from 'node:path';
+import {findHyperframes} from './render.mjs';
+const project=path.resolve(process.argv[2]);
+const result=spawnSync(process.execPath,[findHyperframes(),'check',project,'--json','--no-browser-gpu'],{encoding:'utf8',env:{...process.env,DO_NOT_TRACK:'1'}});
+const start=result.stdout?.search(/\{\s*"/);
+if(start<0||start===undefined)throw new Error('Browser QA returned no JSON: '+result.stderr);
+const report=JSON.parse(result.stdout.slice(start));writeFileSync(path.join(project,'browser-qa.json'),JSON.stringify(report,null,2));
+if(result.status!==0||!report.ok||report.browserSkipped||!report.layout?.ok||!report.contrast?.ok)throw new Error('Browser QA failed; inspect browser-qa.json');
+console.log(JSON.stringify({passed:true,layout:report.layout.totalIssueCount,contrast:report.contrast.checked}));

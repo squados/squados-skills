@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "technical_passed",
+    "fingerprint",
+    "review_status"
+  ],
+  "properties": {
+    "technical_passed": {
+      "type": "boolean"
+    },
+    "fingerprint": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string"
+    }
+  }
+}

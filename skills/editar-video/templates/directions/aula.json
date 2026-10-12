@@ -1,0 +1,9 @@
+{
+  "fonts": {
+    "base": "Nunito Sans",
+    "emphasis": "Sora",
+    "contrast": "Inter"
+  },
+  "accent": "#ffd35f",
+  "background": "#141a24"
+}

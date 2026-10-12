@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "segments",
+    "words",
+    "duration_us"
+  ],
+  "properties": {
+    "segments": {
+      "type": "array"
+    },
+    "words": {
+      "type": "array"
+    },
+    "duration_us": {
+      "type": "integer"
+    }
+  }
+}

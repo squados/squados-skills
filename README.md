@@ -95,3 +95,16 @@ outro item do acervo passa nos critérios); ela volta ao índice quando houver u
 ## Contribuir
 
 Veja [CONTRIBUTING.md](CONTRIBUTING.md). Licença: [MIT](LICENSE).
+
+## Skill de edição de vídeo
+
+O pacote [editar-video](skills/editar-video/SKILL.md) está em `skills/editar-video/`,
+com scripts, referências, templates, fontes, modelos, licenças e locks de dependências.
+Copie a pasta inteira; apenas o `SKILL.md` não funciona. Consulte as
+[instruções de instalação](skills/editar-video/references/instalacao.md).
+
+Essa skill fica fora de `gallery.json`: exige Python 3.11–3.12, Node 22+, FFmpeg e
+instalação de dependências, inclui recursos binários e tem 241 arquivos, cerca de 4,7 MB,
+com pastas além das aceitas na contratação do Studio. O pacote é uma versão de
+desenvolvimento 0.1.0; a validação estrutural não equivale à aprovação para distribuição
+aos alunos.

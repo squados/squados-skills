@@ -1,0 +1,23 @@
+{
+  "types": [
+    "callout",
+    "chart",
+    "checklist",
+    "comparison",
+    "concept-map",
+    "counter",
+    "definition",
+    "emphasis",
+    "flow",
+    "interface",
+    "lower-third",
+    "media-reveal",
+    "morph",
+    "problem-solution",
+    "quote",
+    "recap",
+    "steps",
+    "timeline"
+  ],
+  "note": "Recipes use source evidence and word anchors; do not invent data or copy example content"
+}
