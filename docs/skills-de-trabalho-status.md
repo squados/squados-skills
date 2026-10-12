@@ -8,11 +8,11 @@ Criar um catálogo público de skills próprias do SquadOS para o cotidiano de n
 
 1. **Implementado e verificado localmente:** criar a skill que orienta criação, pesquisa, avaliação e melhoria das outras.
 2. **Concluído:** catálogo aprovado e registrado: 33 skills em 14 áreas, de uso interno.
-3. **Etapa atual:** pesquisar as escolhidas uma por uma, reunindo métodos profissionais, vídeos recentes, materiais e skills similares, com dossiês de fontes. Primeira pesquisa: Copywriter.
-4. **Pendente:** após concluir as pesquisas, criar e verificar as skills uma por uma.
+3. **Pesquisa documental consolidada:** 33 sínteses, cada uma com três dossiês de apoio. Métodos, skills similares, materiais e vídeos encontrados têm acesso e limites discriminados; isso não é leitura integral de toda fonte ou prova de execução.
+4. **Próxima etapa:** criar e verificar as skills uma por uma. Primeiro pacote: Copywriter; desenho concreto preparado para revisão.
 5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
 
-O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. Trinta e duas rodadas registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. A última pesquisa e a criação dos pacotes continuam pendentes.
+O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. As 33 rodadas estão registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. A criação, avaliação e distribuição dos 33 pacotes continuam pendentes.
 
 ## Decisões aprovadas sobre o padrão
 
@@ -72,6 +72,8 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Pesquisa de Especialista em Qualidade | [Síntese e dossiês](research/2026-10-12-quality-specialist.md) | Dezessete SKILL distintos de oito famílias, dezesseis registros na base metodológica incluindo conferência da coordenação e três casos autorais; requisito, evidência, causa, ação e eficácia documentados |
 | Pesquisa de Especialista em Processo Seletivo | [Síntese e dossiês](research/2026-10-12-recruitment.md) | Quinze entradas completas de nove famílias incluindo contraponto suplementar, quinze referências centrais e três casos autorais; vaga, critérios, evidência, instrumentos e métricas documentados |
 | Pesquisa de Especialista em Treinamentos | [Síntese e dossiês](research/2026-10-12-training-specialist.md) | Doze SKILL completos de oito famílias, dezoito registros centrais com acesso discriminado e três casos autorais; necessidades, materiais, prática, capacidade e avaliação documentados |
+| Pesquisa de Especialista em Desenvolvimento de Pessoas | [Síntese e dossiês](research/2026-10-12-people-development.md) | Dezoito SKILL completos distintos de nove famílias, dez referências centrais e quatro entradas de mídia com acesso discriminado; onboarding, feedback, apoio, PDI e três casos autorais documentados |
+| Desenho do primeiro pacote | [Copywriter](superpowers/specs/2026-10-12-copywriter-design.md) | Proposta para revisão: núcleo e três referências por formato, casos e critérios; ainda sem implementação |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
@@ -86,12 +88,12 @@ A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 
 
 O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-Trinta e duas rodadas estão registradas nas sínteses acima, com três dossiês de fontes cada. O usuário aprovou o piloto Copywriter e autorizou prosseguir. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. Lacunas de vídeos/PT-BR e execução estão registradas. Próxima especialidade prevista: Especialista em Desenvolvimento de Pessoas. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
+As 33 rodadas estão registradas nas sínteses acima, com três dossiês de fontes cada. O usuário aprovou o piloto Copywriter e autorizou prosseguir. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. A etapa de pesquisa foi conduzida uma skill por vez, com frentes paralelas autorizadas. Lacunas de vídeos/PT-BR, conteúdos fechados e execução estão registradas. Próxima unidade: revisar o desenho de Copywriter, criar e verificar esse pacote e seguir com as demais individualmente. Publicação permanece prevista para o final.
 
-Durante a segunda e a terceira rodadas, foram apresentadas duas perguntas opcionais: ritmo de revisão (seguir marcos ou revisar cada dossiê) e uso de até 50 créditos vidIQ para transcrições. Sem resposta até a trigésima segunda rodada; seguir pesquisa gratuita sequencial e registrar marcos é a hipótese de ritmo. Nenhuma chamada paga vidIQ foi feita; transcrições pagas dependem da resposta. A ausência de resposta não autoriza consumo de créditos.
+Durante a segunda e a terceira rodadas, foram apresentadas duas perguntas opcionais: ritmo de revisão (seguir marcos ou revisar cada dossiê) e uso de até 50 créditos vidIQ para transcrições. Sem resposta até a trigésima terceira rodada; as pesquisas seguiram gratuitamente em sequência, com registro de marcos. Nenhuma chamada paga vidIQ foi feita; transcrições pagas dependem da resposta. A ausência de resposta não autoriza consumo de créditos.
 
 Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o escopo de uso interno está fechado. Mudanças de nome, consolidação ou expansão do catálogo precisam de decisão do usuário.
 
 ## Como retomar
 
-Leia este arquivo, as instruções globais e o par AGENTS.md/CLAUDE.md quando existir. Confira o estado atual do Git e os caminhos antes de editar. Para a próxima etapa, consulte o pacote skill-manager e o levantamento de necessidades. Atualize este documento ao fechar cada marco; preserve aqui as escolhas de catálogo quando aprovadas e links para os novos dossiês.
+Leia este arquivo, as instruções globais e o par AGENTS.md/CLAUDE.md quando existir. Confira o estado atual do Git e os caminhos antes de editar. Para a próxima etapa, consulte o pacote skill-manager, o desenho de Copywriter e sua pesquisa consolidada. Não recomece as 33 pesquisas já registradas. Atualize este documento ao fechar cada marco; preserve aqui as escolhas de catálogo quando aprovadas e links para os novos dossiês.
