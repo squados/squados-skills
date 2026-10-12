@@ -99,4 +99,10 @@ A avaliação sugerida pela documentação inclui resultados, tempo e tokens [4]
 
 ## Estado
 
-Pesquisa ampliada para práticas gerais e registrada neste documento. O desenho existente já incorpora concisão e eficiência; a seleção das novas recomendações para a Criadora está em discussão. Nenhuma skill foi implementada, nenhum teste de comportamento executado e nenhuma economia de tokens medida nesta etapa.
+Pesquisa geral aprovada pelo usuário em 12/10/2026 com três ajustes que orientam nossa aplicação:
+
+- Scripts quando trouxerem valor concreto ou economia de tokens, preservando a execução flexível.
+- Dependências ausentes: oferecer instalação simples e explicar o necessário a pessoas não desenvolvedoras.
+- Skills melhoráveis pelo próprio agente: oferecer mudanças concretas para adequar a versão utilizada ao fluxo da pessoa e aplicar quando aceitas.
+
+Os ajustes são decisões do usuário, não resultados adicionais da pesquisa externa. O desenho da Criadora foi atualizado. Nenhuma skill foi implementada, nenhum teste de comportamento executado e nenhuma economia de tokens medida nesta etapa.
