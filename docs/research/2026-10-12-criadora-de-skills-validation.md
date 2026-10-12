@@ -2,6 +2,8 @@
 
 Data: 12/10/2026. Pacote alvo: `skills/create-work-skills/`. Avaliação proporcional de autoria; não é prova de contratação ou execução autenticada no Studio.
 
+Atualização de nome: o commit `891709f` renomeou o pacote para `skills/skill-manager/`, alterando somente `name` no frontmatter. As referências abaixo preservam o nome/caminhos usados na avaliação original. Caminho atual: [skill-manager](../../skills/skill-manager/SKILL.md).
+
 ## Condições
 
 Execução nativa aprovada pelo usuário. Avaliações independentes sem histórico da discussão, em contexto novo para cada condição. Mesmos cinco pedidos e materiais fictícios nas condições sem/com a skill. Respostas são propostas e rascunhos; instalação, envio de mensagens e alteração de recursos públicos não fazem parte das avaliações.
