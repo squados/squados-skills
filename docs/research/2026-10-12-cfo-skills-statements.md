@@ -1,0 +1,106 @@
+# CFO — caixa, capital de giro e demonstrações conectadas
+
+Consulta: 12/10/2026. Frente da rodada 17/33, dedicada a decisões financeiras internas de empresas. Pesquisa documental; nenhuma skill criada, instalada ou executada, nenhuma conexão financeira, conta, pagamento ou transação realizada. Planejamento, orçamento e forecast têm frente própria. Este arquivo é autoral; referências externas permanecem nas origens.
+
+## Conclusão da seleção
+
+A combinação mais útil é **financial-statements/reconciliation da Anthropic para leitura financeira cotidiana**, **3-statement-model para ligações e rastreabilidade entre demonstrações quando o pedido exigir um modelo integrado**, e **audit-xls para revisão localizada e comunicação de achados**. O port Hermes simplifica a geração de XLSX, mas conserva falhas materiais da referência de fórmulas; estar no acervo não comprova correção contábil ou funcionamento no Studio. Não adotar o pacote inteiro como CFO cotidiano.
+
+Uma pergunta sobre atraso de recebimentos pode resultar em tabela de vencimentos e implicação para caixa; não precisa virar modelo de cinco anos, valuation, LBO, análise de covenants ou apresentação de banco de investimento. Os originais da Anthropic têm dois contextos distintos: finance/knowledge-work-plugins oferece rotinas de contabilidade corporativa; financial-services oferece modelagem e outros trabalhos financeiros especializados. Não reduzir ambos a valuation.
+
+## Alcance, autoria e revisão
+
+Foram lidos **7 SKILL.md completos**, em **3 repositórios**: Hermes (2), financial-services (3), knowledge-work-plugins/finance (2). São duas linhas de abordagem da Anthropic e uma adaptação Nous Research, **não sete confirmações independentes**. O port Hermes declara `Anthropic (adapted by Nous Research)`; suas duas skills não entram novamente como originais independentes.
+
+Além dos sete SKILL.md, foram lidos integralmente quatro recursos determinantes: `3-statement-model/references/formulas.md` das duas origens, `excel-author/scripts/recalc.py`, `finance/CONNECTORS.md`. As duas versões de formulas.md tiveram comparação literal de conteúdo: idênticas nos SHAs consultados; contar como **um recurso intelectual**. README de finance e três arquivos de licença foram lidos. CPC 03 foi consultado em trechos identificados abaixo, não integralmente. SEC-filings.md não foi lido porque empresas abertas americanas não são necessárias ao escopo; não alegar revisão do pacote completo.
+
+Descoberta por busca web sobre caixa/demonstrações, caminhos indicados pelo catálogo local e fontes originais. Busca trouxe forks `mikesmarcos/hermes-agent-NousResearch` e `openax-reference/nousresearch-hermes-agent`, excluídos como evidências adicionais. A API pública de árvore do GitHub retornou limite de requisições; a consulta prosseguiu por URLs raw fixadas e `git ls-remote`, sem clone, instalação, scratch ou execução de código externo. Sem inventário recursivo integral, **compatibilidade de empacotamento permanece não demonstrada**. A busca parou quando ligações, ferramentas, rotina corporativa e falhas materiais puderam ser comparadas.
+
+| Origem / autoria declarada | Revisão fixa consultada | Data verificável e licença |
+|---|---|---|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent/tree/53df274b08f2bbbe82bb67bb50c7571952e95809) — Anthropic adaptada por Nous Research nas duas skills | `53df274b08f2bbbe82bb67bb50c7571952e95809` | Commit HEAD 12/10/2026; versões de skill 1.0.0, sem data individual. Frontmatter Apache-2.0; [LICENSE raiz](https://github.com/NousResearch/hermes-agent/blob/53df274b08f2bbbe82bb67bb50c7571952e95809/LICENSE) MIT/2025 Nous Research. MIT raiz não substitui Apache da origem. |
+| [anthropics/financial-services](https://github.com/anthropics/financial-services/tree/574ed3624aebd0418c7e96cd101262f30210ab26) — Anthropic | `574ed3624aebd0418c7e96cd101262f30210ab26` | Commit HEAD 21/09/2026; sem versão/data individual nas skills. [LICENSE Apache-2.0](https://github.com/anthropics/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/LICENSE) lida inteira. |
+| [anthropics/knowledge-work-plugins/finance](https://github.com/anthropics/knowledge-work-plugins/tree/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance) — Anthropic | `02ffa99ff00ce4d3046ccebabb8357cb39f3ab06` | SHA HEAD fixado em 12/10/2026; patch expõe série iniciada em 10/10/2026, não comprova data individual das skills. [finance/LICENSE Apache-2.0](https://github.com/anthropics/knowledge-work-plugins/blob/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/LICENSE) lida inteira. |
+
+As licenças Apache permitem reaproveitamento sob condições, incluindo cópia da licença, avisos pertinentes e identificação de alterações. Não localizar LICENSE na pasta excel-author não a transforma em domínio público. Esta pesquisa não copiou os pacotes e não auditou todos os NOTICE/recursos. Antes de redistribuição, confirmar avisos e escopo do conteúdo realmente incorporado; acesso público não equivale a permissão irrestrita. Os pacotes source-available XLSX de `anthropics/skills` são outra origem/licença e não foram reavaliados nesta frente.
+
+## Skills efetivamente comparadas
+
+| Skill / arquivo integral | Pedidos e método | Entrega, ferramentas e limites |
+|---|---|---|
+| [Hermes 3-statement-model](https://github.com/NousResearch/hermes-agent/blob/53df274b08f2bbbe82bb67bb50c7571952e95809/optional-skills/finance/3-statement-model/SKILL.md) | Preencher template existente, preservar fórmulas, histórico → drivers → resultado → balanço → fluxo; WC, dívida e imobilizado como anexos condicionais | XLSX via openpyxl, recálculo externo; vincula excel-author. Impõe múltiplas confirmações e conserva regras tributárias americanas e erros descritos abaixo. |
+| [Anthropic 3-statement-model](https://github.com/anthropics/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/SKILL.md) | Mesma base de integração; admite Excel ao vivo por Office JS ou arquivo headless | Original útil para comparar adaptação, não evidência adicional de método. Falhas do recurso formulas.md também presentes. |
+| [Hermes excel-author](https://github.com/NousResearch/hermes-agent/blob/53df274b08f2bbbe82bb67bb50c7571952e95809/optional-skills/finance/excel-author/SKILL.md) | Inputs separados, comentários de fonte/data, fórmulas, referências nomeadas, Checks e sensibilidade | openpyxl; LibreOffice/Excel para valores calculados. Há snippets incompletos e prescrição de pasta/cor/checkpoints, sem prova de execução. |
+| [Anthropic xlsx-author](https://github.com/anthropics/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md) | Núcleo pequeno para gerar arquivo, uma planilha/modelo, entradas e fórmulas separadas | Referência enxuta: nem todo comportamento extenso do Hermes vem deste arquivo. Bash/pasta `out` são escolhas daquele runtime. |
+| [Anthropic audit-xls](https://github.com/anthropics/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/vertical-plugins/financial-analysis/skills/audit-xls/SKILL.md) | Escopo seleção/aba/modelo; referências, padrões, erros, unidades e checks específicos | Tabela aba/célula/gravidade/problema/correção. Seus limiares heurísticos e revisão de valuation não viram normas para qualquer empresa. |
+| [Anthropic financial-statements](https://github.com/anthropics/knowledge-work-plugins/blob/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/skills/financial-statements/SKILL.md) | P&L mensal/trimestral/anual/YTD com comparadores; distingue efeitos de preço, volume, mix, timing e itens não recorrentes | DRE comparativa e diferenças materiais com perguntas para causas desconhecidas; aceita arquivos/dados colados. Formatos BP/DFC e ASC/IAS no próprio SKILL; normas/contexto requerem adaptação brasileira. |
+| [Anthropic reconciliation](https://github.com/anthropics/knowledge-work-plugins/blob/02ffa99ff00ce4d3046ccebabb8357cb39f3ab06/finance/skills/reconciliation/SKILL.md) | Razão vs auxiliar, classificação de diferenças e aging, intercompany | Aproveitar para AR/AP/estoque/imobilizado fornecidos pela empresa. Rotina bancária descrita na origem não é executada nem proposta como integração nesta pesquisa. Datas/categorias/pendências ajudam explicar qualidade do saldo. |
+
+## Decisões de componentes
+
+| Fonte → componente | Decisão | Motivo e adaptação ao CFO interno |
+|---|---|---|
+| 3-statement/SKILL → mapear template, unidades, períodos e dependências | **Aproveitar** | A pessoa pode entregar estrutura existente; preservar fórmulas e confirmar campos ambíguos antes de alterar. Não refazer tudo pela preferência do agente. |
+| 3-statement/SKILL e audit-xls → balanço, caixa, subtotais e roll-forwards | **Adaptar** | Residual zero é necessário, mas pode resultar de fórmula/plug circular que apenas força fechamento. Testar lógica, dados de origem e movimentos separadamente. |
+| 3-statement/formulas → capital de giro e sinais | **Adaptar** | Aumento AR/estoque consome caixa e aumento AP pode liberá-lo no modelo simplificado; ajustar impostos, créditos, baixas, adiantamentos, contratos, câmbio e classificação concreta. |
+| financial-statements → regime, comparadores, receita e margem | **Adaptar** | P&L por competência e posição de caixa respondem perguntas diferentes. Comparar períodos equivalentes e baseline explícito; zero/negativo exige explicação, não percentual enganoso. |
+| reconciliation → diferenças de timing, ajustes e investigação | **Aproveitar** | Manter diferença não explicada visível com fonte/data e impacto. Não inserir ajuste fictício para fazer números baterem; sugerir revisão, sem registrar lançamentos automaticamente. |
+| financial-statements/reconciliation → materialidade e aging | **Adaptar** | Valores USD, faixas de 30/60/90 dias e T+3/T+5 são exemplos. Usar relevância da decisão e rotina da empresa, não pedir política formal para toda pergunta simples. |
+| excel-author/xlsx-author → inputs e fórmulas, fonte/data | **Aproveitar** | Modelos modificáveis precisam drivers identificados e cálculos vivos; texto/CSV pontual não exige XLSX nem named range para cada célula. |
+| excel-author/SKILL → cor azul/preto/verde, pasta out, sensibilidade 5×5 | **Adaptar/descartar obrigação** | Legibilidade e separação semântica importam; cor e matriz fixa não determinam qualidade. Reusar padrão existente e formato solicitado. |
+| audit-xls → relatório localizado com severidade | **Aproveitar** | Explicação acionável de célula/erro/efeito/correção, sem esconder bloqueio relevante na linha final do documento. Escopo pode ser inferido do pedido. |
+| 3-statement/excel-author → confirmar cada etapa | **Descartar como padrão** | Perguntar somente onde dado/decisão muda resultado. Prosseguir autonomamente em trabalho autorizado e mostrar resultado com premissas/lacunas. Checkpoint não substitui revisão. |
+| 3-statement → cinco anos, % receita para despesas, hierarquia de cenários | **Descartar como universal** | Prazo segue decisão. Custo fixo, capacidade e contratos podem exigir drivers próprios; crescimento pode aumentar necessidade de caixa e reduzir FCF. |
+| finance/CONNECTORS → categorias de ERP/warehouse e opção local | **Adaptar** | Documento declara ERP/BI sem servidores suportados e placeholders de warehouse. Não supor conexão instalada; começar com arquivos autorizados, não solicitar contas. |
+| finance/financial-statements → ASC/IAS e ajustes de fechamento | **Adaptar sob demanda** | Separar síntese gerencial de demonstração para reporte. Jurisdição, regime e finalidade determinam referência, classificação e revisão profissional. |
+| 3-statement/formulas → NOL 80%, DTA automático e saldo inicial zero | **Descartar** | Regra americana e simplificações não são política tributária universal; primeiro período modelado pode ter histórico. Imposto e tributo diferido dependem de regime/dados e condições de reconhecimento. |
+
+## Falhas materiais encontradas por leitura estática
+
+O recurso [Hermes formulas.md](https://github.com/NousResearch/hermes-agent/blob/53df274b08f2bbbe82bb67bb50c7571952e95809/optional-skills/finance/3-statement-model/references/formulas.md) é idêntico ao [original Anthropic](https://github.com/anthropics/financial-services/blob/574ed3624aebd0418c7e96cd101262f30210ab26/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md). Ele contradiz o próprio SKILL em pontos. Isto é evidência documental de risco; nenhum teste do pacote foi executado.
+
+1. **Lucro e prejuízo fiscal:** a estrutura de IS passa de EBT para taxable income deduzindo NOL e termina em net income após imposto. Prejuízo fiscal utilizado altera base tributária; não deve ser deduzido novamente como despesa operacional para definir lucro contábil. Separar EBT, base fiscal e despesa tributária; sem política real não completar imposto.
+2. **SBC e lucros acumulados:** Core Linkages apresenta RE anterior + lucro − dividendos; mais abaixo exige +SBC. Audit-xls mantém a primeira ponte. Remuneração em ações não deve ser adicionada indiscriminadamente aos lucros acumulados: representar movimento patrimonial no componente apropriado e ajustes conhecidos, sem fabricar equity para fechar balanço.
+3. **EBITDA e contribuição:** formulas.md alterna EBIT+D&A e lucro bruto−OpEx enquanto SBC aparece separadamente na DRE. As duas só equivalem sob classificação consistente. Identificar o que OpEx contém; separar EBITDA de EBITDA ajustado, lucro bruto e margem de contribuição. Contribuição exige custos/despesas variáveis relevantes ao pedido, não pode ser inferida de EBITDA.
+4. **Prazo de recebimento/estoque/pagamento:** 365 dias fixos com saldo final e DPO usando COGS é uma aproximação anual. Para mês/trimestre usar base temporal compatível; saldo médio quando pertinente, vendas a prazo/recebíveis homogêneos e compras a prazo para AP quando disponíveis. Se usar COGS como proxy, declarar. Não transformar DSO em cronograma real de recebimento.
+5. **NWC simplificado:** AR+estoque−AP não é sinônimo de ativo circulante−passivo circulante; declarar escopo operacional. Demais contas podem importar. Roll-forward de AR só com receita/recebimentos omite baixas, devoluções, impostos e outros movimentos.
+6. **Identidades incompletas:** Δcaixa=CFO+CFI+CFF ignora efeito cambial quando aplicável. Relação entre emissão de equity e Δcapital/APIC pode conter movimentos não caixa. Histórico ausente não autoriza assumir saldo inicial zero; aquisição ou arrendamento sem caixa não vira desembolso só porque imobilizado subiu.
+7. **Cenários:** exigir upside>base>downside para todo FCF/margem/índice rejeita casos economicamente plausíveis de crescimento financiando estoque/AR ou capex. Verificar coerência causal dos drivers e sensibilidade, não ordenação imposta.
+8. **Snippets excel-author:** exemplo de Checks usa `IS!D20-IS!D21-IS!D22` para BS; skeleton cria Inputs/DCF/Checks mas referencia BS inexistente. O snippet é incompleto e não deve virar template pronto sem correção. Sensibilidade contém valores embutidos na fórmula apesar de regra geral exigir drivers referenciados.
+9. **Recálculo não é auditoria:** [recalc.py](https://github.com/NousResearch/hermes-agent/blob/53df274b08f2bbbe82bb67bb50c7571952e95809/optional-skills/finance/excel-author/scripts/recalc.py) procura LibreOffice/soffice no PATH, converte em pasta temporária e substitui o arquivo original. Seu success informa produção de arquivo, sem varredura de erros, validação de premissas ou checks do negócio. PATH Windows e efeito da conversão precisam comprovação no destino.
+
+## Referência brasileira para decidir a adaptação
+
+[CPC 03 (R2), portal oficial](https://www.cpc.org.br/CPC/Documentos-emitidos/Pronunciamentos/Pronunciamento?Id=34), aprovado em 03/09/2010 e divulgado em 07/10/2010; consultada a [Revisão 24](https://www.cpc.org.br/Arquivos/Documentos/183_CPC_03_R2_rev%2024.pdf), especialmente itens 6–10, 18–20, 43–45 e 48. Distingue métodos direto/indireto, conciliação dos componentes de caixa com balanço, operações sem caixa e valores indisponíveis. Isso justifica separar DFC histórica de previsão gerencial e não tratar qualquer saldo contábil como dinheiro disponível. Não se presume aplicabilidade integral a toda entidade: verificar enquadramento, finalidade e política contábil. O PDF traz restrições de direitos IFRS/FACPCS e distribuição; manter link e síntese autoral, sem copiar o pronunciamento para o pacote. Não foi pesquisada tributação brasileira: taxas, compensações e ativos fiscais continuam dependentes do caso.
+
+## Proposta para o destino, sem criar a skill
+
+**Núcleo curto:** reconhecer automaticamente o pedido e a decisão; reutilizar contexto/material; estabelecer entidade/período/moeda/unidade e regime quando relevante; escolher método mínimo; separar dados, hipóteses, cálculos e lacunas; produzir conclusão, evidência, impacto e opções de ação. Não exigir entrevista completa quando os arquivos já respondem. Se faltam dados decisivos, perguntar por eles; não inventar saldo, taxa vigente, imposto, rentabilidade ou financiamento.
+
+**Referências sob demanda:** demonstrações ligadas e capital de giro; conciliação e vencimentos; definições de indicadores; revisão de fórmulas e premissas; apresentação gerencial e reconciliação com contabilidade; dependências de planilha. Aproveitar Planilhas/Dados já pesquisadas para formato, fórmulas, renderização e comunicação, sem recontar como nova evidência. Bibliografia e histórico extensos ficam neste dossiê.
+
+Pedidos orientadores:
+
+| Pedido | Entrega mínima e pergunta que muda resultado |
+|---|---|
+| “Tenho lucro, mas por que falta caixa?” | Ponte competência→caixa com recebíveis, estoque, contas a pagar e itens não operacionais demonstrados. Se ausente, pedir posição inicial/final e movimentos; não inferir saldo de lucro. |
+| “Se o cliente pagar 30 dias depois, qual o impacto?” | Cenário de datas/valores fornecidos, pior ponto de caixa e necessidade temporal. Basear em recebimentos previstos, não MRR como depósito. |
+| “Receita cresceu e a margem caiu” | Receita líquida, custos e mix em baseline equivalente; separar contribuição, lucro e EBITDA; causas ainda desconhecidas como hipóteses. |
+| “Preencha o modelo que envio” | Mapear inputs/fórmulas, completar o que fontes permitem, demonstrar links e discrepâncias; revisar lógica contábil antes de importar formulas.md. |
+| “Esse índice está saudável?” | Definir numerador/denominador/período/política; avaliar baseline e covenants fornecidos. Sem benchmark real, não inventar faixa saudável. |
+| “Vale contratar/antecipar/comprar?” | Comparar fluxos incrementais, horizonte, risco e custo total demonstrado; distinguir preço de custo total, taxa nominal de taxa efetiva com unidade/data, benefício recorrente de evento único. Apoio interno, sem contratar financiamento ou executar movimentações. |
+
+Quando solicitado artefato editável, fórmulas devem flexionar e suas premissas permanecer visíveis. MRR é medida contratual recorrente conforme definição específica, receita depende do reconhecimento e recebimento depende da liquidação; apresentar três linhas quando a decisão exige essa separação.
+
+**Dependências:** verificar ferramentas efetivamente presentes; não prometer “Studio já traz openpyxl/LibreOffice” pelo README. Se faltar recurso, explicar em linguagem de trabalho o benefício (“atualizar e conferir automaticamente os totais quando você mudar as premissas”), oferecer instalação simples e alternativa disponível. Esta frente não instala. Scripts próprios só se cálculos repetidos/reconciliações extensas justificarem; nenhuma obrigação de scripts para responder uma questão financeira. Se padrão recorrente da empresa justificar ajuste, oferecer adaptar a própria versão com aceite explícito, preservando definições/contexto; não criar memória ou skill empresarial automaticamente.
+
+## Critérios para revisão posterior
+
+- Conferir definição profissional do indicador e lógica contábil separadamente da sintaxe e recálculo; planilha sem erro pode calcular conceito errado.
+- Conferir períodos, moeda/unidades, denominadores, zeros/negativos e taxas com unidade temporal. Deltas percentuais versus pontos percentuais não são intercambiáveis.
+- Mostrar rastreio fonte→input→fórmula→resultado e distinguir dado reportado de premissa/estimativa. Informação sem fonte permanece pendente.
+- Conferir caixa inicial/final, sinais, classificação, movimentos não caixa, cambiais e fundos indisponíveis quando aplicáveis; não forçar fechamento com plug silencioso.
+- Testar alterações de premissas e casos de borda proporcionalmente ao artefato; não concluir validade só por balanço zero ou conversão LibreOffice exit 0.
+- Separar proposta de classificação/ajuste de lançamento real; nenhum sistema externo é alterado pela análise.
+
+Limites finais: leitura/documentação demonstradas; inventário completo, guard/empacotamento, execução Hermes/Studio, recálculo real, desempenho e caso empresarial autenticado **não demonstrados**. Nenhum índice/espelho Desktop alterado. Sem push/publicação. O suficiente aqui é selecionar e revisar componentes, não afirmar pacote operacional.
