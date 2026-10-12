@@ -47,6 +47,8 @@ Validação: metadados, UTF-8, links, limites de arquivos/tamanho e revisão do 
 
 ## Ideias já disponíveis para refinamento
 
+O usuário evoluiu a organização para departamentos: RH, Marketing, Comercial, Customer Success, Financeiro, Compras e Estoque, Ecommerce e Operações. Seu rascunho de 15 agentes e as sugestões de ampliação estão em [Candidatas por departamento](skills-de-trabalho-candidatas.md). Esse é o rascunho de trabalho mais recente; a tabela abaixo preserva os agrupamentos preliminares anteriores como referência.
+
 As três candidatas iniciais vieram do usuário: **Copywriter**, **Especialista em Dados** e **Especialista em Apresentações lindas em HTML**. Os outros nomes são propostas de discussão, não itens aprovados. Público de empreendedores, gestores e equipes brasileiras foi uma hipótese inicial; setor e porte não foram fechados.
 
 | Candidata | Exemplos de trabalho que pode atender |
