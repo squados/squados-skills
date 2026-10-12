@@ -1,0 +1,79 @@
+# Pesquisador de Mercado: desenho e síntese de pesquisa
+
+Pesquisa em 12/10/2026 para uso interno em PT-BR e empresas diversas. Recorte: perguntas de pesquisa, entrevistas, questionários, voz do cliente e síntese. Desk research, fontes de mercado e concorrentes têm frente complementar. Não houve contato com participantes, coleta externa de dados pessoais, instalação/execução de pacotes ou mudança no catálogo.
+
+## Descoberta e seleção
+
+Busca em skills.sh por `customer-research`, `customer-interviews`, `interview-script`, `survey-designer`, `user-research-synthesis` e métodos de pesquisa. Cinco candidatas de origens diferentes foram selecionadas por contribuição: cobertura VOC, definição da decisão, protocolo de entrevista, revisão de questionário e síntese rastreável. Contagens de instalações/estrelas não foram usadas como prova. As metodologias compartilhadas de JTBD/Mom Test não são validações independentes.
+
+Originais foram lidos por SHA; arquivos grandes tiveram lacunas de exibição recuperadas em leitura separada. Recursos de comportamento decisivos foram lidos e estão discriminados abaixo. Não é auditoria integral dos cinco repositórios.
+
+Há drift de descoberta: [Zephyr SPACE-survey-designer](https://www.skills.sh/zephyrwang6/pm-skills/space-survey-designer) corresponde atualmente a `pm-survey-designer`. Mohit tem cópias de release/plugin/traduções; analisamos `skills/user-research-synthesis`, sem contá-las como fontes independentes. A referência Anthropic `customer-research` encontrada é pesquisa de suporte/conta em fontes conectadas, não candidata prioritária a desenho de entrevistas desta frente.
+
+## Proveniência
+
+Todas as consultas: 12/10/2026. SHAs são HEAD consultados, obtidos por `git ls-remote`; datas pelas páginas de commit, não de criação da skill. Árvores foram consultadas por ZIP em memória, sem extração/execução. GitHub API estava limitada nesta sessão, motivo para HTTP/raw e Git read-only.
+
+| Autoria/origem | Revisão congelada | Data do commit visível | Licença |
+|---|---|---|---|
+| Corey Haines, `coreyhaines31/marketingskills` | `1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff` | 08/10/2026 | [MIT, Corey Haines 2025](https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/LICENSE), lida em pesquisa anterior desta sessão. |
+| Pawel Huryn, `phuryn/pm-skills` | `c68487d721e419ec87af1ae6412a842978eab785` | 10/10/2026 | [MIT, Pawel Huryn 2026](https://github.com/phuryn/pm-skills/blob/c68487d721e419ec87af1ae6412a842978eab785/LICENSE). |
+| Jason Cohen / A Smart Bear, `asmartbear/asb-skills` | `4fc9c1ca1356d162d53798f86f86e2e259185224` | 03/10/2026 −05:00 | [CC BY 4.0](https://github.com/asmartbear/asb-skills/blob/4fc9c1ca1356d162d53798f86f86e2e259185224/LICENSE); README atribui conteúdo a Jason Cohen. Licença e seção de atribuição consultadas. |
+| Conta `zephyrwang6`, `pm-skills` | `4c486c7a532de8890e88036533e0a48d578087ed` | 09/07/2026 | LICENSE não encontrado na árvore consultada; GET de `/LICENSE` retorna 404. Não assumir permissão de redistribuição. |
+| Mohit Aggarwal, `mohitagw15856/pm-claude-skills` | `760fe9aea4300dbc682c42a94d8b59ad0c83b1a7` | 12/10/2026 18:22:35 UTC | [MIT, Mohit Aggarwal 2026](https://github.com/mohitagw15856/pm-claude-skills/blob/760fe9aea4300dbc682c42a94d8b59ad0c83b1a7/LICENSE). |
+
+Métodos podem informar uma síntese própria; copiar/transformar recursos exige atribuição e avisos. CC BY pede também indicar alterações. Não foi auditada a cadeia de autoria de todos os livros/exemplos citados nem identidade legal da conta Zephyr.
+
+## Comparação dos componentes
+
+| Candidata e fonte | Contexto/método | Entregas/recursos | Adaptação e limites |
+|---|---|---|---|
+| [Corey customer-research 2.0.4](https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/customer-research/SKILL.md) | Reusa contexto, analisa material existente, distingue fonte/segmento e extrai trabalho, dor, gatilho, linguagem e alternativas. | Relatório temático, banco VOC, hipóteses de persona e lacunas; recursos de entrevistas/surveys e fontes públicas. | Base ampla com rastreabilidade. Adaptar escolha de método ao pedido. Não adotar mínimos universais para persona, confiança por número de fontes ou superioridade automática de fonte primária. Sinal público não estima toda população. |
+| [Phuryn interview-script](https://github.com/phuryn/pm-skills/blob/c68487d721e419ec87af1ae6412a842978eab785/pm-product-discovery/skills/interview-script/SKILL.md) | Objetivo e decisão antes de roteiro; episódios passados, contexto, alternativas e aprofundamento sem pitch. Introdução inclui permissão de gravar. | Roteiro adaptável e template de notas; referências externas de leitura, sem recursos locais na pasta. | Melhor entrada compacta para protocolo. Tempos/seções são ajustáveis. Hipotéticos de desejo/renúncia não demonstram compra; decisão de produto não é responsabilidade do participante. Product Trio não precisa ser obrigatório em empresas pequenas. |
+| [A Smart Bear asb-interview-goals](https://github.com/asmartbear/asb-skills/blob/4fc9c1ca1356d162d53798f86f86e2e259185224/.claude/skills/asb-interview-goals/SKILL.md) | Distingue o que a empresa precisa descobrir da pergunta que o cliente consegue responder; objetivos ligados a decisões, hipótese e pergunta. Adapta B2B/B2C e etapa do negócio. | Lista contextualizada em GOALS.md, crítica e conexão a próximos passos da família. SKILL autocontido. | Forte disciplina de desenho. Não presumir cliente ideal antes de investigar. Não importar cerimônia de aprovação, vocabulário/personagem ou arquivo obrigatório para toda consulta; pesquisa solicitada pode produzir roteiro direto com objetivos explícitos. |
+| [Zephyr pm-survey-designer](https://github.com/zephyrwang6/pm-skills/blob/4c486c7a532de8890e88036533e0a48d578087ed/pm-survey-designer/SKILL.md) | Objetivo → hipótese → pergunta → auditoria → plano de amostra e análise. Diferencia questões bloqueantes e ajustes opcionais. | Instrumento limpo, justificativas, lógica de salto, revisão de vieses e análise planejada; referências de tipos e checklist. | Mais específico para questionário. Cortar amostras/precisão/testes automáticos, mínimos de questões e attention checks universais. Sem licença identificada: conceitos como referência; não transplantar os recursos. |
+| [Mohit user-research-synthesis 1.0.0](https://github.com/mohitagw15856/pm-claude-skills/blob/760fe9aea4300dbc682c42a94d8b59ad0c83b1a7/skills/user-research-synthesis/SKILL.md) | Liga temas a participantes/prova, separa observação/interpretação e expõe conflito. Porém manda preencher lacunas de dados/método/amostra com suposições. | Síntese temática, necessidades, alternativas e recomendação; `theme-validity.md`, template e exemplo. Integra estado em `brain/` se existir. | Bom formato de análise com uma falha material: **descartar preenchimento de metadados/evidência por suposição**. Não inventar frequência/citações nem aceitar nota 32/40 como validação. Caminhos de memória não são requisito do SquadOS. |
+
+## Fonte → componente → decisão
+
+| Fonte/arquivo → contribuição | Decisão e razão |
+|---|---|
+| **A Smart Bear SKILL.md → objetivo de aprendizagem ligado à decisão** | **Aproveitar:** explicitar qual resposta mudaria uma decisão e o que é hipótese. **Adaptar:** objetivos podem estar na conversa/briefing; IDs só quando ajudam rastrear. **Descartar:** recusar roteiro só porque a pessoa não pediu a etapa com o nome certo. |
+| **Phuryn SKILL.md → protocolo, pergunta sobre episódio e notas** | **Aproveitar:** propósito claro, tempo disponível, registro consentido e contexto. **Adaptar:** sondar sem pressupor frustração, pedir fatos em vez de promessa futura; notas podem usar ID, sem nome obrigatório. **Descartar:** proporção de fala/tempo como prova de qualidade. |
+| **Corey SKILL.md → segmentação, banco de falas e origem do material** | **Aproveitar:** identificar contradições e limites de ticket/review/entrevista. **Adaptar:** avaliar confiança pela adequação de método/origem, não um número mágico. Não gerar detalhes de personas para preencher template. |
+| [Corey interviews-and-surveys.md](https://github.com/coreyhaines31/marketingskills/blob/1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff/skills/customer-research/references/interviews-and-surveys.md) → procurar contraevidência e aprofundar motivação | **Aproveitar:** hipótese que pode estar errada e perguntas de acompanhamento. **Descartar como defaults:** recrutamento só de melhores clientes, recompensa fixa, saturação por cinco chamadas, limiar PMF para todo mercado e ocultar que a conversa é pesquisa. Informalidade não substitui transparência. |
+| **Zephyr SKILL.md → rastrear intenção da questão e planejar análise antes de campo** | **Adaptar:** cada pergunta informa objetivo/decisão; evidência exploratória não precisa nascer de hipótese rígida. Separar desenho amostral de número de respostas. Não tratar grupo com 30 pessoas como autorização automática de teste/causalidade. |
+| [Zephyr bias-checklist.md](https://github.com/zephyrwang6/pm-skills/blob/4c486c7a532de8890e88036533e0a48d578087ed/pm-survey-designer/references/bias-checklist.md) → linguagem, premissa, ordem, seleção/não resposta | **Aproveitar conceitualmente:** uma pergunta por constructo, opções que o participante entende e canal registrado. **Adaptar:** períodos e categorias ao contexto; promessa de anonimato somente se o processo realmente oferece isso. |
+| [Zephyr question-types.md](https://github.com/zephyrwang6/pm-skills/blob/4c486c7a532de8890e88036533e0a48d578087ed/pm-survey-designer/references/question-types.md) → instrumento conforme informação desejada | **Adaptar:** testar compreensão e rotas no canal real. **Descartar:** abertas sempre no fim, neutralidade retirada automaticamente e ordem aleatória aplicada a toda escala. Escolha da pergunta pode alterar o que se mede. |
+| **Mohit SKILL.md → evidência e recomendações estruturadas** | **Aproveitar:** apontar implicação e próxima pergunta. **Descartar:** completar corpus, número/perfil de participantes ou citações com suposições; benefício percentual do exemplo não é previsão do caso. Não exigir quotas de temas/citações. |
+| [Mohit theme-validity.md](https://github.com/mohitagw15856/pm-claude-skills/blob/760fe9aea4300dbc682c42a94d8b59ad0c83b1a7/skills/user-research-synthesis/references/theme-validity.md) → denominador, qualificadores e contraevidência | **Aproveitar:** contar apenas quando corpus permite, preservar condições da fala e registrar exceções. **Descartar:** 40% como confiança qualitativa universal; comportamento não explica sozinho toda motivação. Segmento emergente pode existir, mas deve ser identificado como exploração posterior. |
+| [Mohit synthesis-report.md](https://github.com/mohitagw15856/pm-claude-skills/blob/760fe9aea4300dbc682c42a94d8b59ad0c83b1a7/skills/user-research-synthesis/templates/synthesis-report.md) → resposta, suporte, conflito e limites | **Aproveitar:** relatório diz o que o estudo não responde. **Adaptar:** relatos individuais relevantes continuam no relatório como casos, sem promoção a prevalência populacional. |
+
+## Referências profissionais para adjudicar divergências
+
+- [Pew Research Center, Writing Survey Questions](https://www.pewresearch.org/writing-survey-questions/), consultado em 12/10/2026, data exata de atualização não identificada. Sustenta pré-teste, linguagem simples, perguntas separadas e atenção a opções/ordem. Contrapõe regra de abertas sempre no fim: perguntas fechadas anteriores podem contaminar respostas espontâneas. Escalas ordinais preservam ordem; não se randomizam como listas sem sequência. Não reproduzimos números dos exemplos políticos.
+- [Pew, Evaluating Online Nonprobability Surveys, 02/05/2016](https://www.pewresearch.org/2016/05/02/evaluating-online-nonprobability-surveys/). Distingue propriedades de amostra probabilística e não probabilística; sustenta rejeitar precisão/confiança inferida apenas pelo tamanho. O relatório é antigo e de surveys nos EUA; não valida amostra brasileira nem prevê erro do usuário.
+- [GOV.UK, Plan a round of user research](https://www.gov.uk/service-manual/user-research/plan-round-of-user-research), consultado em 12/10/2026. Liga objetivos a métodos, participantes, consentimento, registro e preparação. Serve como prática de planejamento, sem importar cronograma/número de sessões ou regulação britânica para o Brasil.
+
+Essas fontes avaliam a contribuição das skills, sem substituir pesquisa real. Livros/referências profissionais citados nos pacotes não foram integralmente lidos nem entrevistas externas executadas.
+
+## Núcleo candidato e alcance de execução
+
+Reconhecer qual decisão/pergunta está em jogo; examinar material disponível; separar fato, hipótese e ausência; escolher método pela evidência necessária; desenhar instrumento; analisar material com origem e limitações; apresentar resposta, implicação e próxima investigação proporcional. Entrevista explora mecanismos/contexto; survey mede respostas sob um desenho; ambos exigem interpretar seleção, instrumento e não resposta. Não são atalhos para declarar demanda total.
+
+Um pedido por análise de transcrições recebe análise, sem mandar o usuário selecionar um modo. Se não existe corpus, entregar plano/perguntas e lacunas; não fabricar estudo para completar relatório. Se há poucos casos, descrever o que eles mostram e o que permanece desconhecido. Hipóteses de persona ou cenário sintético devem ser marcadas como hipóteses, sem citações, IDs ou resultados que simulem participantes observados.
+
+Planejar instrumento e mensagem de convite não significa enviar convite, recrutar pessoas, gravar entrevista ou lançar formulário. Essas ações precisam de escopo autorizado, acesso e definição do tratamento dos dados. No trabalho interno, pedir somente metadados necessários e usar IDs quando bastam; não expor identificação/contato de participante para tornar o relatório mais convincente.
+
+Tamanho de amostra, frequência de repetição e saturação dependem de diversidade, questão e método. Contagem no corpus é descritiva; projeção ao mercado exige desenho apropriado. Prazo, orçamento e acesso a pessoas orientam o método sem permitir inventar precisão. Resultados observados e recomendações permanecem separados.
+
+## Consulta e lacunas
+
+- **Corey:** SKILL e `interviews-and-surveys.md` completos; `source-guides.md` não lido nesta frente, evitando duplicar desk research. Cases/PMF/incentivos citados não checados como resultados independentes.
+- **Phuryn:** SKILL completo, com roteiro/template embutidos; curso e artigo externos indicados não consumidos. Pasta consultada não inclui recursos adicionais.
+- **A Smart Bear:** SKILL completo, README de autoria e licença; Section 3 de CC BY conferida. Outras skills da sequência e histórias de validação de empresas não auditadas.
+- **Zephyr:** SKILL e ambas referências completos, em chinês, interpretados para este dossiê PT-BR; não houve localização do instrumento ou pré-teste. LICENSE ausente; não foi procurada permissão privada.
+- **Mohit:** SKILL, `theme-validity.md` e template completos; exemplo `worked-example.md` identificado, não lido. Cópias de plugin/release/tradução não comparadas byte a byte. Recursos podem tensionar o fallback do SKILL; por isso a síntese proposta elimina a instrução de inventar lacunas.
+- Nenhum script/connector foi executado, corpus de cliente acessado ou respondente contatado. Não se demonstrou compatibilidade Hermes, qualidade de campo, base populacional brasileira ou validade comercial. Matéria regulatória local não foi investigada; as referências de consentimento aqui são metodológicas, não parecer jurídico.
+
+O dossiê permite escolher componentes úteis e rejeitar defaults inadequados. Não demonstra que uma skill pronta possa produzir pesquisa válida sem dados, participantes e desenho apropriados.
