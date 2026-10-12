@@ -1,6 +1,6 @@
 # Criadora de Skills de Trabalho — plano de implementação
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Criar uma skill autoral que pesquisa, cria e melhora skills de trabalho, com intenção reconhecida automaticamente, referências sob demanda e execução flexível.
 
@@ -38,9 +38,9 @@
 
 **Consome:** desenho, pesquisa e decisões do usuário. **Produz:** pedidos e critérios observáveis para avaliar o pacote.
 
-- [ ] Registrar os cinco pedidos abaixo, antes de escrever o pacote, com as condições e os recursos da avaliação.
-- [ ] Executar pedidos sem a nova skill em contexto independente e sem enviar a resposta esperada ao avaliador. Usar artefatos fictícios e manter a avaliação sem instalações, publicação ou envio de mensagens.
-- [ ] Registrar saídas e falhas observadas, incluindo quando o comportamento já for satisfatório. Uma execução inicial não prova ganho estatístico.
+- [x] Registrar os cinco pedidos abaixo, antes de escrever o pacote, com as condições e os recursos da avaliação.
+- [x] Executar pedidos sem a nova skill em contexto independente e sem enviar a resposta esperada ao avaliador. Usar artefatos fictícios e manter a avaliação sem instalações, publicação ou envio de mensagens.
+- [x] Registrar saídas e falhas observadas, incluindo quando o comportamento já for satisfatório. Uma execução inicial não prova ganho estatístico.
 
 | Caso | Pedido para avaliação | Critério para revisão posterior |
 |---|---|---|
@@ -56,12 +56,12 @@
 
 **Consome:** desenho e resultados iniciais. **Produz:** pacote autoral utilizável sem instalar superpowers ou outras skills de Codex.
 
-- [ ] Criar frontmatter com `name: create-work-skills`, `description: Cria e melhora skills de trabalho a partir de pedidos reais, pesquisa e avaliação de resultados.` e `license: MIT`.
-- [ ] Escrever o núcleo: interpretar a intenção, aproveitar contexto, combinar pesquisa/autoria/avaliação conforme necessidade, orientar instalação acessível e propor melhorias da própria skill quando houver benefício concreto.
-- [ ] Linkar diretamente `references/research.md` para trabalho de pesquisa e `references/quality.md` para autoria, revisão ou avaliação. Usar linguagem de resultado; encaminhamento é decisão interna do agente.
-- [ ] Escrever `research.md`: fontes profissionais, materiais e vídeos, rastreabilidade, licença de recursos semelhantes e síntese prática. Separar dossiê de desenvolvimento e conteúdo necessário ao uso.
-- [ ] Escrever `quality.md`: artefatos e critérios por trabalho, seleção da skill, casos variados, custo quando mensurável, revisão proporcional, limites do pacote e correção/adaptação do trecho afetado.
-- [ ] Fazer revisão editorial: retirar repetições e generalidades; preservar decisões úteis; conferir as três observações mais recentes do usuário nos três arquivos.
+- [x] Criar frontmatter com `name: create-work-skills`, `description: Cria e melhora skills de trabalho a partir de pedidos reais, pesquisa e avaliação de resultados.` e `license: MIT`.
+- [x] Escrever o núcleo: interpretar a intenção, aproveitar contexto, combinar pesquisa/autoria/avaliação conforme necessidade, orientar instalação acessível e propor melhorias da própria skill quando houver benefício concreto.
+- [x] Linkar diretamente `references/research.md` para trabalho de pesquisa e `references/quality.md` para autoria, revisão ou avaliação. Usar linguagem de resultado; encaminhamento é decisão interna do agente.
+- [x] Escrever `research.md`: fontes profissionais, materiais e vídeos, rastreabilidade, licença de recursos semelhantes e síntese prática. Separar dossiê de desenvolvimento e conteúdo necessário ao uso.
+- [x] Escrever `quality.md`: artefatos e critérios por trabalho, seleção da skill, casos variados, custo quando mensurável, revisão proporcional, limites do pacote e correção/adaptação do trecho afetado.
+- [x] Fazer revisão editorial: retirar repetições e generalidades; preservar decisões úteis; conferir as três observações mais recentes do usuário nos três arquivos.
 
 ## Tarefa 3 — avaliar, verificar e entregar
 
@@ -69,23 +69,23 @@
 
 **Consome:** pacote e pedidos da tarefa 1. **Produz:** arquivos verificados e evidências separadas por camada.
 
-- [ ] Repetir os pedidos com a skill, em contexto independente, dando ao avaliador o pedido, a skill e os materiais brutos necessários, sem o diagnóstico ou a resposta esperada.
-- [ ] Revisar artefatos e trajetória contra os cinco critérios; acrescentar um pedido novo para checar generalização. Corrigir falhas observadas e reavaliar os casos afetados.
-- [ ] Rodar o validador existente em PowerShell, após conferir o interpretador Python. Não criar um novo validador para replicar essa função:
+- [x] Repetir os pedidos com a skill, em contexto independente, dando ao avaliador o pedido, a skill e os materiais brutos necessários, sem o diagnóstico ou a resposta esperada.
+- [x] Revisar artefatos e trajetória contra os cinco critérios; acrescentar um pedido novo para checar generalização. Corrigir falhas observadas e reavaliar os casos afetados.
+- [x] Rodar o validador existente em PowerShell, após conferir o interpretador Python. Não criar um novo validador para replicar essa função:
 
 ```powershell
-python 'C:\Users\renat\.codex\skills\.system\skill-creator\scripts\quick_validate.py' 'D:\Coding Projects\squados-skills\skills\create-work-skills'
+python -X utf8 'C:\Users\renat\.codex\skills\.system\skill-creator\scripts\quick_validate.py' 'D:\Coding Projects\squados-skills\skills\create-work-skills'
 ```
 
 Resultado esperado: metadados e nome válidos. Esse check não prova comportamento nem contratação no Hermes. Se houver dependência ausente do validador, registrar o limite e aplicar a política de instalação solicitada pelo usuário; não declarar um check não executado como aprovado.
 
-- [ ] Conferir recursos UTF-8, links locais, número/tamanho de arquivos, descrição, licença e ausência de credenciais. Revisar conteúdo e recursos, sem usar testes de texto que apenas espelham headings.
-- [ ] Pedir revisão independente final do pacote e das evidências, com foco no desenho e nos cinco casos; resolver problemas concretos.
-- [ ] Registrar checklist item a item do desenho com arquivos/linhas e evidência de execução, deixando explícitas as camadas sem prova: guard/proposta Hermes, contratação, instalação e uso autenticado no Studio.
-- [ ] Conferir `git diff --check`, commit cirúrgico dos arquivos da unidade e conteúdo de HEAD. Entregar links e estado; sem modificar o índice antes da fase coordenada de publicação.
+- [x] Conferir recursos UTF-8, links locais, número/tamanho de arquivos, descrição, licença e ausência de credenciais. Revisar conteúdo e recursos, sem usar testes de texto que apenas espelham headings.
+- [x] Pedir revisão independente final do pacote e das evidências, com foco no desenho e nos cinco casos; resolver problemas concretos.
+- [x] Registrar checklist item a item do desenho com arquivos/linhas e evidência de execução, deixando explícitas as camadas sem prova: guard/proposta Hermes, contratação, instalação e uso autenticado no Studio.
+- [x] Conferir `git diff --check`, commit cirúrgico dos arquivos da unidade e conteúdo de HEAD. Entregar links e estado; sem modificar o índice antes da fase coordenada de publicação.
 
 ## Cobertura do desenho e estado
 
 Tarefa 1 define evidência e casos de comportamento. Tarefa 2 cobre autoria, concisão, roteamento, pesquisa, scripts, dependências e adaptação. Tarefa 3 cobre avaliação, formato, licenças, revisão e relato de limites. A instalação real de dependências e a alteração de uma cópia de usuário são simuladas nesta avaliação; sua execução no Studio fica para verificação no destino.
 
-Plano para revisão. Implementação ainda não iniciada. Método de execução ainda não escolhido. Recomenda-se execução nativa nesta sessão por ser um pacote pequeno com arquivos estreitamente relacionados, mantendo avaliação e revisão independentes.
+Executado de forma nativa após aprovação. Três arquivos de pacote, cinco casos pareados e um caso adicional, validação estrutural e revisão independente concluídos localmente. Guard/contratação/instalação e execução no Studio não foram realizados; índice e publicação permanecem para a entrega coordenada. Evidências em ../../research/2026-10-12-criadora-de-skills-validation.md.
