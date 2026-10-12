@@ -100,6 +100,15 @@ perfil, locks e rotina de preparação antes de dizer que "o Studio já traz" um
 
 ## Validação e entrega
 
+Credenciais de provedores, incluindo OpenRouter, ficam na configuração local do
+agente que executa a skill, fora deste repositório. Não coloque chaves em SKILL.md,
+scripts, exemplos, projetos gerados, logs ou commits. A skill de vídeo usa o agente
+já configurado e não exige uma chave própria de LLM. Arquivos `.env` locais são
+ignorados; arquivos `.env.example` públicos só podem conter valores fictícios.
+O `.gitignore` não remove segredos já rastreados nem protege contra `git add -f`:
+confira o diff antes de cada commit. Se uma chave for publicada, revogue-a e
+substitua-a; apagar o arquivo em um novo commit não apaga o histórico.
+
 Este repositório não possui um runner de testes ou CI próprio na raiz. Não invente
 comandos `npm test` aqui. Pacotes independentes têm seus próprios checks.
 
