@@ -12,7 +12,7 @@ Criar um catálogo público de skills próprias do SquadOS para o cotidiano de n
 4. **Pendente:** após concluir as pesquisas, criar e verificar as skills uma por uma.
 5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
 
-O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. Quatorze rodadas registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. As demais 19 pesquisas e a criação dos pacotes continuam pendentes.
+O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. Quinze rodadas registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. As demais 18 pesquisas e a criação dos pacotes continuam pendentes.
 
 ## Decisões aprovadas sobre o padrão
 
@@ -54,6 +54,7 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Pesquisa de Treinador de Vendedores | [Síntese e dossiês](research/2026-10-12-sales-coach.md) | Nove arquivos principais de nove origens, nove fontes profissionais e quatro transcrições de clipes 2026; prática, feedback e limites de métricas documentados |
 | Pesquisa de Especialista em Prospecção | [Síntese e dossiês](research/2026-10-12-prospecting.md) | Dezoito SKILL principais de nove famílias, dez registros metodológicos e três vídeos identificados; adequação/intenção, fontes e cadências discriminadas |
 | Pesquisa de Especialista em Negociação | [Síntese e dossiês](research/2026-10-12-negotiation.md) | Dez SKILL distintos (oito principais e dois auxiliares) de oito origens; dez fontes decisivas, dois eventos recentes e três casos autorais; alternativas, limites e pacotes documentados |
+| Pesquisa de Especialista em CS | [Síntese e dossiês](research/2026-10-12-customer-success.md) | Vinte SKILL distintos em oito repositórios e sete famílias; métodos, trechos de duas transcrições 2025 e três casos autorais; adoção, resultados, saúde e retenção discriminados |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
@@ -68,9 +69,9 @@ A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 
 
 O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-Quatorze rodadas estão registradas nas sínteses acima, com três dossiês de fontes cada. O usuário aprovou o piloto Copywriter e autorizou prosseguir. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. Lacunas de vídeos/PT-BR e execução estão registradas. Próxima especialidade prevista: Especialista em CS. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
+Quinze rodadas estão registradas nas sínteses acima, com três dossiês de fontes cada. O usuário aprovou o piloto Copywriter e autorizou prosseguir. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. Lacunas de vídeos/PT-BR e execução estão registradas. Próxima especialidade prevista: Analista de Voz do Cliente. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
 
-Durante a segunda e a terceira rodadas, foram apresentadas duas perguntas opcionais: ritmo de revisão (seguir marcos ou revisar cada dossiê) e uso de até 50 créditos vidIQ para transcrições. Sem resposta até a décima quarta rodada; seguir pesquisa gratuita sequencial e registrar marcos é a hipótese de ritmo. Nenhuma chamada paga vidIQ foi feita; transcrições pagas dependem da resposta. A ausência de resposta não autoriza consumo de créditos.
+Durante a segunda e a terceira rodadas, foram apresentadas duas perguntas opcionais: ritmo de revisão (seguir marcos ou revisar cada dossiê) e uso de até 50 créditos vidIQ para transcrições. Sem resposta até a décima quinta rodada; seguir pesquisa gratuita sequencial e registrar marcos é a hipótese de ritmo. Nenhuma chamada paga vidIQ foi feita; transcrições pagas dependem da resposta. A ausência de resposta não autoriza consumo de créditos.
 
 Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o escopo de uso interno está fechado. Mudanças de nome, consolidação ou expansão do catálogo precisam de decisão do usuário.
 
