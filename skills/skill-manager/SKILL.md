@@ -1,5 +1,5 @@
 ---
-name: create-work-skills
+name: skill-manager
 description: Cria e melhora skills de trabalho a partir de pedidos reais, pesquisa e avaliação de resultados.
 license: MIT
 ---
