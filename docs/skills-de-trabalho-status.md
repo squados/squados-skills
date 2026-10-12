@@ -12,7 +12,7 @@ Criar um catálogo público de skills próprias do SquadOS para o cotidiano de n
 4. **Pendente:** após concluir as pesquisas, criar e verificar as skills uma por uma.
 5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
 
-O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. A pesquisa específica de cada profissão ainda não começou.
+O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. A pesquisa de Copywriter começou em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. A coordenação consolida uma profissão por vez.
 
 ## Decisões aprovadas sobre o padrão
 
@@ -26,6 +26,7 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 - Melhoria pelo uso: oferecer adaptar a própria versão da skill quando houver preferência recorrente ou atrito concreto; aplicar quando a pessoa aceitar ou pedir a alteração diretamente.
 - Preferências de uma equipe não viram automaticamente padrões do pacote público.
 - Avaliação proporcional, com entregas e comportamento observáveis; não montar infraestrutura sem necessidade.
+- Pesquisa orientada prioritariamente pelas principais skills existentes: descobrir em diretórios, ler fontes originais e recursos pertinentes, comparar componentes e justificar o que aproveitar, adaptar ou descartar. Métodos profissionais ajudam a julgar e preencher lacunas. Popularidade não comprova eficácia; forks não são evidências independentes.
 - Trabalhar na main, preservar WIP e fazer commits cirúrgicos. Publicação prevista para o final, ainda não realizada.
 
 ## O que já foi entregue
@@ -37,7 +38,7 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Desenho da Criadora | [Desenho](superpowers/specs/2026-10-12-criadora-de-skills-design.md) | Aprovado e implementado |
 | Plano do passo zero | [Plano](superpowers/plans/2026-10-12-criadora-de-skills.md) | Executado nativamente, com avaliações e revisão independentes |
 | Pacote atual | [skill-manager](../skills/skill-manager/SKILL.md) | Três Markdown, sem scripts e sem dependências próprias |
-| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; pesquisas individuais a iniciar |
+| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; Copywriter em pesquisa |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
@@ -52,7 +53,7 @@ A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 
 
 O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-Usar a skill-manager para pesquisar **Copywriter** primeiro. Registrar dossiê com métodos, materiais, vídeos, pacotes similares, fontes, exemplos e critérios de qualidade. Seguir uma skill por vez. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
+Usar a skill-manager para pesquisar **Copywriter** primeiro. Seu roteiro de [Pesquisa](../skills/skill-manager/references/research.md) agora prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. A intenção é reconhecida automaticamente; nenhum modo precisa ser memorizado. Registrar dossiê com métodos, materiais, vídeos, pacotes similares, fontes, exemplos e critérios de qualidade. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
 
 Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o escopo de uso interno está fechado. Mudanças de nome, consolidação ou expansão do catálogo precisam de decisão do usuário.
 

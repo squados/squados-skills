@@ -12,7 +12,7 @@ Transforme conhecimento profissional em skills que entregam trabalho útil. Part
 
 Reconheça se a pessoa quer pesquisar, criar, revisar, avaliar ou adaptar uma skill. Aproveite o contexto e os recursos existentes. Pergunte quando a resposta mudar materialmente a entrega; se uma suposição razoável permitir avançar, torne-a visível. A pessoa descreve o trabalho, sem precisar escolher modos ou métodos internos.
 
-- Para reunir ou atualizar conhecimento profissional, consulte [Pesquisa](references/research.md).
+- Para pesquisar uma especialidade ou consolidar o melhor de skills existentes, consulte [Pesquisa](references/research.md): descubra, compare e sintetize os componentes úteis antes de propor o pacote.
 - Para escrever, revisar ou avaliar um pacote, consulte [Qualidade](references/quality.md).
 
 Uma pesquisa solicitada pode terminar em pesquisa; uma correção pontual pode terminar no trecho corrigido. Em uma criação nova, identifique pedidos representativos, entradas, entregas e o que caracteriza um bom resultado. Use evidências e exemplos para ensinar decisões úteis, mantendo o agente livre quando várias abordagens funcionarem.
