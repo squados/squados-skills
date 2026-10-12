@@ -1,14 +1,14 @@
 # Skills de trabalho — estado e continuação
 
-Atualizado em 12/10/2026. Este documento é o ponto de retomada após compactação ou em uma nova sessão. Registra decisões, entregas e próximos passos; não é a lista definitiva do catálogo.
+Atualizado em 12/10/2026. Este documento é o ponto de retomada após compactação ou em uma nova sessão. Registra decisões, entregas e próximos passos; a lista definitiva está no catálogo aprovado.
 
 ## Objetivo e sequência acordada
 
 Criar um catálogo público de skills próprias do SquadOS para o cotidiano de negócios, utilizável pelo Desktop/Studio com Hermes.
 
 1. **Implementado e verificado localmente:** criar a skill que orienta criação, pesquisa, avaliação e melhoria das outras.
-2. **Etapa atual:** gerar/refinar ideias de especialistas, agrupar as necessidades e escolher a lista. Depois da escolha, registrar o catálogo aprovado em Markdown.
-3. **Pendente:** pesquisar as escolhidas uma por uma, reunindo métodos profissionais, vídeos recentes, materiais e skills similares, com dossiês de fontes.
+2. **Concluído:** catálogo aprovado e registrado: 33 skills em 14 áreas, de uso interno.
+3. **Etapa atual:** pesquisar as escolhidas uma por uma, reunindo métodos profissionais, vídeos recentes, materiais e skills similares, com dossiês de fontes. Primeira pesquisa: Copywriter.
 4. **Pendente:** após concluir as pesquisas, criar e verificar as skills uma por uma.
 5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
 
@@ -32,11 +32,12 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 
 | Entrega | Arquivo | Estado |
 |---|---|---|
-| Levantamento de 50 necessidades e agrupamentos iniciais | [Pesquisa de necessidades](research/2026-10-12-necessidades-de-trabalho.md) | Pesquisa preliminar registrada; candidatos não escolhidos |
+| Levantamento de 50 necessidades e agrupamentos iniciais | [Pesquisa de necessidades](research/2026-10-12-necessidades-de-trabalho.md) | Referência histórica de pesquisa; seleção atual no catálogo aprovado |
 | Pesquisa geral de autoria | [Boas práticas](research/2026-10-12-boas-praticas-de-skills.md) | 18 práticas e 15 fontes; aprovadas com os ajustes acima |
 | Desenho da Criadora | [Desenho](superpowers/specs/2026-10-12-criadora-de-skills-design.md) | Aprovado e implementado |
 | Plano do passo zero | [Plano](superpowers/plans/2026-10-12-criadora-de-skills.md) | Executado nativamente, com avaliações e revisão independentes |
 | Pacote atual | [skill-manager](../skills/skill-manager/SKILL.md) | Três Markdown, sem scripts e sem dependências próprias |
+| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; pesquisas individuais a iniciar |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
@@ -45,43 +46,15 @@ Validação: metadados, UTF-8, links, limites de arquivos/tamanho e revisão do 
 
 **Ainda sem prova:** ativação implícita pelo Studio, carregamento mínimo por pedido isolado, estabilidade estatística, economia de tokens, guard/proposta Hermes, contratação, instalação e uso real autenticado no Studio. Índice e espelho do Desktop não foram alterados por esta unidade. Nenhum push ou publicação foi executado nesta conversa.
 
-## Ideias já disponíveis para refinamento
+## Catálogo aprovado e próximo passo
 
-O usuário evoluiu a organização para departamentos: RH, Marketing, Comercial, Customer Success, Financeiro, Compras e Estoque, Ecommerce e Operações. Seu rascunho de 15 agentes e as sugestões de ampliação estão em [Candidatas por departamento](skills-de-trabalho-candidatas.md). Esse é o rascunho de trabalho mais recente; a tabela abaixo preserva os agrupamentos preliminares anteriores como referência.
+A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 skills em 14 departamentos/áreas, para uso interno. O agrupamento em Operações mantém Dados, Apresentações e Planilhas. Customer Success apoia internamente a equipe com análise, planejamento e materiais. Os nomes e a seleção foram aprovados; fronteiras e ferramentas serão detalhadas na pesquisa.
 
-As três candidatas iniciais vieram do usuário: **Copywriter**, **Especialista em Dados** e **Especialista em Apresentações lindas em HTML**. Os outros nomes são propostas de discussão, não itens aprovados. Público de empreendedores, gestores e equipes brasileiras foi uma hipótese inicial; setor e porte não foram fechados.
+O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-| Candidata | Exemplos de trabalho que pode atender |
-|---|---|
-| Copywriter | Emails de campanha, páginas de vendas, anúncios e texto de carrosséis |
-| Especialista em Dados | Análises, gráficos, indicadores e relatórios para decisão |
-| Especialista em Apresentações HTML | Apresentações, pitches e comunicação visual de números |
-| Especialista em Planilhas | Criar/corrigir planilhas, fórmulas e modelos utilizáveis |
-| Assistente Executivo | Preparar reuniões, resumir materiais, atas e prioridades |
-| Redator de Negócios | Documentos, briefings, memorandos e revisão de clareza |
-| Pesquisador de Mercado | Clientes, concorrentes, ofertas e oportunidades |
-| Estrategista de Marketing | Posicionamento, campanhas e lançamentos |
-| Especialista em Conteúdo | Calendário e planejamento editorial |
-| Assistente Comercial | Pesquisa de contas, prospecção, objeções e acompanhamento |
-| Especialista em Propostas Comerciais | Escopo, condições, entregas e apresentação da proposta |
-| Analista Financeiro | Caixa, orçamento, custos, margens e cenários |
-| Analista de Processos | Procedimentos, checklists, gargalos e retrabalho |
-| Gerente de Projetos | Planos de execução, cronogramas, dependências e riscos |
-| Especialista em Atendimento | Respostas, dúvidas e reclamações com contexto |
-| Especialista em Sucesso do Cliente | Onboarding, relacionamento e pós-venda |
-| Especialista em Recrutamento | Vagas, critérios e entrevistas |
-| Especialista em Pessoas | Integração de profissionais, feedback e desenvolvimento |
-| Designer de Treinamentos | Aulas, exercícios e treinamentos ligados ao trabalho |
-| Especialista em Compras | Comparar fornecedores, propostas e custo total |
-| Organizador de Conhecimento | Documentos e bases de conhecimento navegáveis |
+Usar a skill-manager para pesquisar **Copywriter** primeiro. Registrar dossiê com métodos, materiais, vídeos, pacotes similares, fontes, exemplos e critérios de qualidade. Seguir uma skill por vez. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
 
-Esses nomes reaproveitam os agrupamentos da pesquisa preliminar. Ainda é necessário discutir sobreposição e cobertura: Dados/Planilhas, Copywriter/Conteúdo/Marketing, Comercial/Propostas e Atendimento/Sucesso do Cliente. Copy de um criativo e produção de sua arte final são entregas diferentes; capacidades visuais precisam ser consideradas na seleção.
-
-## Próxima ação concreta
-
-Usar a skill-manager e o levantamento existente para apresentar ideias de skills de trabalho com: nome reconhecível, pedidos que resolve, entregas, prioridade sugerida e sobreposições. Refinar os agrupamentos com o usuário e acrescentar lacunas que ele identificar. A escolha do catálogo é uma decisão de produto; os agrupamentos iniciais são uma base para essa conversa.
-
-Depois da escolha, escrever o Markdown do catálogo aprovado e iniciar a pesquisa da primeira candidata. Continuar uma por vez, mantendo um dossiê por especialista. A etapa atual é ideias e seleção; evitar avançar para a produção das outras skills antes da pesquisa acordada.
+Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o escopo de uso interno está fechado. Mudanças de nome, consolidação ou expansão do catálogo precisam de decisão do usuário.
 
 ## Como retomar
 
