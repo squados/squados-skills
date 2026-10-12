@@ -8,7 +8,7 @@ Em pesquisas para criar ou melhorar uma skill, priorize descobrir e comparar pac
 
 Busque pela profissão, pelos pedidos e pelos formatos de entrega, usando sinônimos e idiomas pertinentes. Diretórios como [skills.sh](https://skills.sh/) ajudam a descobrir candidatos; consulte os repositórios originais para analisá-los. Popularidade, instalações e estrelas orientam a descoberta, mas não comprovam qualidade. Justifique a seleção por relevância, conteúdo e diversidade de abordagens; identifique forks e cópias para evitar contar a mesma solução como evidências independentes.
 
-Leia o SKILL.md completo das candidatas selecionadas e os recursos que determinam seu comportamento. Compare componentes, não apenas nomes ou descrições:
+Na análise das fontes originais, leia o SKILL.md completo das candidatas selecionadas e os recursos que determinam seu comportamento. Uma comparação limitada aos materiais fornecidos permanece preliminar. Compare componentes, não apenas nomes ou descrições:
 
 | Dimensão | O que observar |
 |---|---|
@@ -18,7 +18,7 @@ Leia o SKILL.md completo das candidatas selecionadas e os recursos que determina
 | Recursos e custo | Referências, templates, scripts, dependências e conteúdo carregado |
 | Adaptação ao destino | Flexibilidade, idioma, ferramentas, autoria e licença |
 
-Para cada componente relevante, registre **fonte/arquivo → contribuição → aproveitar, adaptar ou descartar → motivo**. Diferencie uma técnica bem descrita de uma técnica demonstrada em execução. Quando métodos divergirem, explicite em quais pedidos cada um ajuda; evite juntar instruções incompatíveis ou acumular tudo que encontrou. Consulte métodos profissionais e exemplos reais para julgar os componentes e preencher lacunas.
+Para cada componente relevante, registre **fonte/arquivo → contribuição → aproveitar, adaptar ou descartar → motivo**. Diferencie uma técnica bem descrita de uma técnica demonstrada em execução. Quando métodos divergirem, explicite em quais pedidos cada um ajuda; evite juntar instruções incompatíveis ou acumular tudo que encontrou. Busque métodos profissionais e exemplos reais quando ajudarem a julgar os componentes ou resolverem lacunas materiais.
 
 Se a pesquisa comportar frentes independentes e houver autorização e ferramentas, delegue escopos separados, com contexto suficiente e arquivos próprios. A coordenação revisa fontes decisivas, elimina duplicação e consolida os achados. Uma pesquisa pequena pode ser feita diretamente.
 

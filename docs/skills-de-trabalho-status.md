@@ -12,7 +12,7 @@ Criar um catálogo público de skills próprias do SquadOS para o cotidiano de n
 4. **Pendente:** após concluir as pesquisas, criar e verificar as skills uma por uma.
 5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
 
-O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. A pesquisa de Copywriter começou em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. A coordenação consolida uma profissão por vez.
+O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. A primeira rodada de Copywriter foi registrada e consolidada em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. As demais 32 pesquisas e a criação dos pacotes continuam pendentes.
 
 ## Decisões aprovadas sobre o padrão
 
@@ -38,7 +38,9 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Desenho da Criadora | [Desenho](superpowers/specs/2026-10-12-criadora-de-skills-design.md) | Aprovado e implementado |
 | Plano do passo zero | [Plano](superpowers/plans/2026-10-12-criadora-de-skills.md) | Executado nativamente, com avaliações e revisão independentes |
 | Pacote atual | [skill-manager](../skills/skill-manager/SKILL.md) | Três Markdown, sem scripts e sem dependências próprias |
-| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; Copywriter em pesquisa |
+| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; rodada de Copywriter registrada |
+| Metodologia comparativa | [Atualização e validação](research/2026-10-12-skill-manager-research-validation.md) | skill-manager atualizada; revisão independente com caso sintético e checks locais |
+| Pesquisa de Copywriter | [Síntese e dossiês](research/2026-10-12-copywriter.md) | Treze SKILL.md principais, doze fontes profissionais e sete vídeos identificados; acesso e lacunas discriminados |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
@@ -53,7 +55,7 @@ A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 
 
 O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-Usar a skill-manager para pesquisar **Copywriter** primeiro. Seu roteiro de [Pesquisa](../skills/skill-manager/references/research.md) agora prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. A intenção é reconhecida automaticamente; nenhum modo precisa ser memorizado. Registrar dossiê com métodos, materiais, vídeos, pacotes similares, fontes, exemplos e critérios de qualidade. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
+A primeira rodada de **Copywriter** está na [síntese consolidada](research/2026-10-12-copywriter.md), com três dossiês de fontes. Seu roteiro de [Pesquisa](../skills/skill-manager/references/research.md) agora prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. Seguir uma skill por vez, usando frentes paralelas dentro dela quando úteis e autorizadas. O piloto está disponível para calibrar o padrão antes da próxima profissão; lacunas de vídeos/PT-BR e execução estão registradas. Depois de concluir as pesquisas, criar e verificar os pacotes individualmente e publicar ao final.
 
 Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o escopo de uso interno está fechado. Mudanças de nome, consolidação ou expansão do catálogo precisam de decisão do usuário.
 

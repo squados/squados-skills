@@ -18,6 +18,10 @@ O núcleo permanece com 38 linhas. Uma linha de encaminhamento agora reconhece p
 
 ## Aplicação e limites
 
+Um avaliador independente aplicou a referência a um caso sintético de propostas comerciais, limitado aos dados de três candidatas: original MIT sem teste publicado, fork idêntico com mais estrelas e dependências extras, e template sem licença informada/scripts consultados. A resposta distinguiu a linhagem do fork, registrou decisões por componente e tratou licença, leitura parcial e eficácia como limites; não criou ou instalou pacote. Não houve comparação controlada com a versão anterior.
+
+A revisão não encontrou lacuna bloqueante. Duas ambiguidades pequenas foram ajustadas no texto: comparação restrita ao material fornecido permanece preliminar; fontes profissionais adicionais entram quando ajudam a julgar componentes ou resolver lacunas materiais. A conferência após a mudança foi documental/estrutural; o exercício não foi repetido.
+
 A pesquisa de Copywriter usa três frentes autorizadas, duas dedicadas às skills existentes e uma a métodos profissionais/materiais recentes. Os dossiês dessa pesquisa registram as fontes e decisões. Essa aplicação não é um experimento controlado de melhoria do modelo.
 
 A validação acima cobre estrutura e revisão documental. Não demonstra reconhecimento implícito de intenção no Studio, economia de tokens, eficácia dos pacotes pesquisados, contratação, instalação ou execução autenticada. Nenhum push/publicação acompanha esta atualização.
