@@ -56,7 +56,7 @@ isso para os itens do Hermes.
 |---|---|---|---|
 | `three-statement-model` | Financeiro | Hermes | Resultado, balanço e fluxo de caixa ligados; só planilha |
 | `comps-analysis` | Financeiro | Hermes | Valuation por comparáveis; só planilha |
-| `excel-author` | Financeiro | Hermes | Convenções de planilha auditável; usa `openpyxl`, que o Studio já traz |
+| `excel-author` | Financeiro | Hermes | Convenções de planilha auditável; usa `openpyxl`, cuja disponibilidade precisa ser conferida no ambiente |
 | `lbo-model` | Financeiro | Hermes | Compra alavancada com TIR e múltiplo; só planilha |
 | `claude-design` | Marketing | Hermes | Páginas e apresentações em HTML, sem ferramenta extra |
 | `popular-web-designs` | Marketing | Hermes | 54 estilos de sites conhecidos, todos em `templates/` |
