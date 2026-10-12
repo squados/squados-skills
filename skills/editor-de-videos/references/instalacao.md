@@ -1,8 +1,8 @@
 # Instalação
 
-Copie/descompacte a pasta inteira editar-video no diretório de skills do agente.
-Codex: `~/.agents/skills/editar-video`; Claude Code: `~/.claude/skills/editar-video`;
-Hermes: `$HERMES_HOME/skills/editar-video` ou `~/.hermes/skills/editar-video`.
+Copie/descompacte a pasta inteira editor-de-videos no diretório de skills do agente.
+Codex: `~/.agents/skills/editor-de-videos`; Claude Code: `~/.claude/skills/editor-de-videos`;
+Hermes: `$HERMES_HOME/skills/editor-de-videos` ou `~/.hermes/skills/editor-de-videos`.
 `scripts/install.py --host codex|claude|hermes --destination PATH` copia o pacote completo
 para o destino informado, sem sobrescrever pasta existente. O agente faz esta operação.
 

@@ -27,7 +27,7 @@ def package(output):
     result=validate_package(ROOT);output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists():raise ValueError('Output exists; choose a new package iteration')
     with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as z:
-        for p in package_files(ROOT):z.write(p,Path('editar-video')/p.relative_to(ROOT))
+        for p in package_files(ROOT):z.write(p,Path('editor-de-videos')/p.relative_to(ROOT))
     output.with_suffix(output.suffix+'.sha256').write_text(hashlib.sha256(output.read_bytes()).hexdigest()+'  '+output.name,encoding='utf-8')
     return result
 if __name__=='__main__':

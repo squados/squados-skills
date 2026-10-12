@@ -1,8 +1,8 @@
 # Hermes Agent
 
 Mesmo SKILL.md, Python e Node do Codex/Claude Code; nenhum adaptador de API.
-Instale a pasta completa em `$HERMES_HOME/skills/editar-video` (perfil padrão: `~/.hermes/skills`).
-Use `skill_view(name="editar-video")` ou `/editar-video` para carregar. A ativação informa
+Instale a pasta completa em `$HERMES_HOME/skills/editor-de-videos` (perfil padrão: `~/.hermes/skills`).
+Use `skill_view(name="editor-de-videos")` ou `/editor-de-videos` para carregar. A ativação informa
 `skill_dir`; caminhos dos scripts usam essa pasta, não o diretório de trabalho do terminal.
 `terminal` executa a CLI. `read_file` lê JSON/referências; use os recursos de imagem/áudio
 disponíveis para revisão. Não presuma que terminal implica capacidade de ouvir.

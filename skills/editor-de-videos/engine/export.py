@@ -19,7 +19,7 @@ def _time(us):
 def fcpxml_text(segments,source,fps,width,height,source_duration_us):
     duration=sum(s['source_end_us']-s['source_start_us'] for s in segments)
     clips=''.join(f'<asset-clip ref="r2" offset="{_time(s["output_start_us"])}" start="{_time(s["source_start_us"])}" duration="{_time(s["source_end_us"]-s["source_start_us"])}"/>' for s in segments)
-    return f'<?xml version="1.0" encoding="UTF-8"?><fcpxml version="1.10"><resources><format id="r1" frameDuration="{fps["den"]}/{fps["num"]}s" width="{width}" height="{height}"/><asset id="r2" name="source" start="0s" duration="{_time(source_duration_us)}" hasVideo="1" hasAudio="1" format="r1"><media-rep kind="original-media" src="{escape(Path(source).resolve().as_uri())}"/></asset></resources><library><event name="editar-video"><project name="Montagem"><sequence format="r1" duration="{_time(duration)}"><spine>{clips}</spine></sequence></project></event></library></fcpxml>'
+    return f'<?xml version="1.0" encoding="UTF-8"?><fcpxml version="1.10"><resources><format id="r1" frameDuration="{fps["den"]}/{fps["num"]}s" width="{width}" height="{height}"/><asset id="r2" name="source" start="0s" duration="{_time(source_duration_us)}" hasVideo="1" hasAudio="1" format="r1"><media-rep kind="original-media" src="{escape(Path(source).resolve().as_uri())}"/></asset></resources><library><event name="Editor de Vídeos"><project name="Montagem"><sequence format="r1" duration="{_time(duration)}"><spine>{clips}</spine></sequence></project></event></library></fcpxml>'
 def config_fingerprint(project):
     project=Path(project)
     names=['request.json','media.json','decisions.json','edit.json','storyboard.json','frame-plan.json','index.html']

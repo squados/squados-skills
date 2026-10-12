@@ -1,4 +1,4 @@
-# editar-video
+# Editor de Vídeos
 
 Skill pública para Claude Code, Codex e Hermes Agent. Forneça um vídeo bruto e peça:
 

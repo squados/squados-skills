@@ -1,12 +1,12 @@
 ---
-name: editar-video
+name: editor-de-videos
 description: Edita vídeos falados com legendas e motion dinâmicos.
 license: MIT
 metadata:
   runtime: Python 3.11–3.12, Node 22+, FFmpeg; terminal e arquivos no mesmo backend.
 ---
 
-# Editar vídeo
+# Editor de Vídeos
 
 Transforme o vídeo bruto falado em MP4 com cortes seguros, áudio tratado, legendas dinâmicas,
 variação intencional de fontes, motion por ideia, transições e projeto revisável.
