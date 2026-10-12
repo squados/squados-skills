@@ -14,7 +14,7 @@ Antes de abrir o pull request:
 
 - `title` e `description` em `pt-BR` e `en`, uma linha cada, na palavra que a pessoa usa no trabalho;
 - abra a skill e confirme que ela não pede conta, chave nem instalação extra;
-- confirme que todo arquivo além de `SKILL.md` está em `references/`, `templates/`, `scripts/` ou `assets/`, sem binário. Skill com `LICENSE.txt` na raiz, por exemplo, não é aceita na contratação.
+- confirme que todo arquivo além de `SKILL.md` está em `references/`, `templates/`, `scripts/` ou `assets/`, sem binário. Arquivos `LICENSE*`, `LICENCE*`, `NOTICE*` ou `COPYING*` na raiz são preservados em `references/` pelo adaptador do Studio, desde que não haja colisão com um arquivo já existente.
 
 ## 2. Acrescentar uma skill nossa
 
