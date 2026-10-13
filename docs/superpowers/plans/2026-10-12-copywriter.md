@@ -42,7 +42,7 @@
 
 - [x] Registrar os seis casos fictícios abaixo, sem dados reais de clientes, e indicar que a avaliação acontece no harness desta sessão.
 - [x] Executar A e D com avaliador independente sem acesso ao pacote futuro ou ao desenho; entregar apenas entrada e pedido. Registrar resposta, perguntas, recursos consultados e limitações do controle. Não alegar ausência de toda orientação se o avaliador tiver outras instruções de escrita disponíveis.
-- [ ] Identificar falhas e acertos observados. Um controle satisfatório é evidência válida; não fabricar falha nem ampliar regras só para produzir diferença.
+- [x] Identificar falhas e acertos observados. Um controle satisfatório é evidência válida; não fabricar falha nem ampliar regras só para produzir diferença.
 
 | Caso | Entrada e pedido exatos | Verificação do resultado |
 |---|---|---|
@@ -68,7 +68,7 @@ URLs example.com são destinos fictícios; não navegar, enviar mensagens ou pub
 
 **Consome:** pesquisa e observações da tarefa 1. **Produz:** pacote autoral com links diretos de consulta por necessidade.
 
-- [ ] Escrever o núcleo com estes metadados:
+- [x] Escrever o núcleo com estes metadados:
 
 ```yaml
 ---
@@ -78,8 +78,8 @@ license: MIT
 ---
 ```
 
-- [ ] Orientar identificação do trabalho, uso do contexto, pergunta material, escrita e revisão proporcional; indicar qual referência atende cada formato. Voz deve partir de amostras ou instruções disponíveis, sem guia formal obrigatório.
-- [ ] Escrever as três referências com decisões e exemplos pequenos que agreguem valor. Estruturas são opções, sem número obrigatório de seções, slides, variantes, palavras ou perguntas. Campos de produção acompanham o pedido.
+- [x] Orientar identificação do trabalho, uso do contexto, pergunta material, escrita e revisão proporcional; indicar qual referência atende cada formato. Voz deve partir de amostras ou instruções disponíveis, sem guia formal obrigatório.
+- [x] Escrever as três referências com decisões e exemplos pequenos que agreguem valor. Estruturas são opções, sem número obrigatório de seções, slides, variantes, palavras ou perguntas. Campos de produção acompanham o pedido.
 - [ ] Incluir oferta de instalação somente quando uma ferramenta necessária faltar e oferta de adaptação da própria versão diante de preferência recorrente. Não acoplar envio, publicação, geração de imagens ou planejamento completo de campanha à escrita.
 - [ ] Revisar duplicação: princípios comuns ficam no núcleo; detalhes por formato nas referências; links/bibliografia de pesquisa ficam nos dossiês. Não impor um limite artificial de linhas, mas remover trechos sem contribuição demonstrável.
 
@@ -109,4 +109,4 @@ Cobertura: núcleo e três referências na tarefa 2; seis pedidos e cinco focos 
 
 **Recomendação: execução nativa**, pois há um pacote pequeno com conteúdo interdependente. Avaliações e revisão independentes preservam contraponto sem introduzir coordenação de vários autores. Alternativa: execução por subagentes, com implementador/revisor por tarefa, oferece mais separação, ao custo de contextos e coordenação adicionais.
 
-Estado: plano e execução nativa aprovados com “ok” em 12/10/2026. Tarefa 1 executada; controle A/D satisfatório, sem alegação de falha ou ganho. Autoria e avaliação com pacote seguem nesta sessão.
+Estado: plano e execução nativa aprovados com “ok” em 12/10/2026. Tarefas 1 e 2 executadas; controle A/D satisfatório e pacote de quatro Markdown escrito. Avaliação comportamental e revisão seguem nesta sessão.
