@@ -67,3 +67,22 @@ Coordenação identificou no Hermes preparado SKILL_PROMPT_DESC_LIMIT=60 na vali
 
 ### Marco 3 — autoria e correção verificadas
 creative-designer (3 arquivos) e marketing-traffic (4 arquivos): quick_validate, UTF-8, links, estrutura/tamanho e diff aprovados. Revalidado limite <=60 nos seis pacotes. Revisão autoral conferiu distinção arte/arquivo, atribuição/resultado e diferença de efeito/incerteza. Avaliação independente e Studio pendentes.
+
+## ecommerce-competitors — desenho anterior à autoria
+Lidos síntese, matrizes offers/strategy e casos de methods.
+- Nexscope competitive-pricing-strategy/GS1 → equivalência e custo do cenário → aproveitar; sem rateio neutro fictício de kits.
+- Ethan e templates sam6dvpte34 → URL/variante/vendedor/data/condição → adaptar sem quotas, APIs ou confirmação por imagem/snippet.
+- Nexscope ecommerce-competitor-analysis/Shopify → mensagem, portfólio e experiência → adaptar; descartar AOV/LTV/share estimados por benchmark e reviews como venda.
+- Dean watch → comparação temporal como problema profissional → redação própria independente, sem copiar texto CC BY-NC-SA; descartar monitor armado por pesquisa pontual.
+Desenho: núcleo com referências de ofertas e posicionamento/mudanças. Sem BrowserAct ou scripts; investigação somente pelo escopo real.
+
+## product-catalog — desenho anterior à autoria
+Lidos síntese, matrizes data/content e casos/métodos pertinentes.
+- Skill Me e 12222a → texto utilizável e vínculo fato/função/benefício → adaptar; descartar desempenho presumido e suavização sem suporte.
+- Finsi/Saleor → produto/variante, tipos, unidades e overrides → aproveitar método; sem inventar SKU, estoque ou combinações ofertadas.
+- Aaron/Nexscope → item/reprovação/correção e antes/depois → adaptar; descartar coletor regex como verdade física e score como aprovação.
+- GS1/Google/Shopify → identidade e contrato do destino → adaptar com conferência atual, sem congelar teto de variantes ou campo obrigatório universal.
+Desenho: núcleo com referência de identidade/dados e conteúdo/localização/destino. Não incorporar PIM, scripts de terceiros ou assets.
+
+### Marco 4 — autoria verificada
+ecommerce-competitors e product-catalog: 3 arquivos por pacote. quick_validate, UTF-8, links, descrição <=60, estrutura/tamanho e diff aprovados. Revisão autoral incluiu equivalência de oferta, cenário de preço, identidade e herança/claims. Sem coleta real, aprovação de feed ou teste comportamental.
