@@ -45,3 +45,34 @@ Autoria e checks registrados ao fechar cada pacote. Avaliação comportamental i
 ## financial-assistant — desenho anterior à autoria
 
 [Síntese](2026-10-12-financial-assistant.md) e frentes payables/receivables/methods. Receiptor → origem/extração/exceção → adaptar sem fiscalidade presumida; Panaversity → documento/pedido/aceite → aproveitar quando houver; Loopfour → residual/disputa/alocação → aproveitar; cxtx → unicidade → adaptar sem assumir que 1:1 resolve remessas; AdoptAI/Paidnice → corte/aging → adaptar corrigindo agregações sem janela e skipped/pass. Descartar ajustes para fechar, soma de moedas e baixa por semelhança. Referências documentos/AP, AR/aging e conciliação.
+
+- cfo e financial-assistant: quick_validate, UTF-8, links, descrição até 60, arquivos/bytes, diff e HEAD/disco conferidos; commit 3ea1313. Descrição CFO inicialmente 62; corrigida para 50 antes do commit e revalidada.
+
+## procurement — desenho anterior à autoria
+
+[Síntese](2026-10-12-procurement.md) e frentes sourcing/suppliers/methods. Arun → evidência e custos por categoria → aproveitar em síntese; TPO → obrigatórios antes de ranking → adaptar sem wizard/JSON; Risco → RFx pelo desconhecido → adaptar sem sequência universal; CIPS/EC/EPA → custo do ciclo de vida → adaptar sem obrigação pública estrangeira; Anthropic/RampStack → recomendação interna → adaptar sem pesos e horizonte padrão. Descartar scorer com defaults, site como certificação, preço alvo como cotação e soma nominal como valor presente. Referências comparação/custos e fornecedores/acompanhamento.
+
+## inventory — desenho anterior à autoria
+
+[Síntese](2026-10-12-inventory.md) e frentes replenishment/control/methods. Intempt/FreshRetailNet → disponibilidade e venda censurada → aproveitar sem recuperar demanda exata; ECC → posição/padrões → adaptar sem dupla subtração; Risco → política versus necessidade atual → adaptar com proteção contínua/periódica correta; Kishor/Anthropic → contagem/reconciliação → síntese sem percentual para base zero; Asgard → sazonalidade → aproveitar ressalva, descartar datas/índices incorretos. MIT/OTexts/Microsoft → unidades/EOQ/intermitência → síntese. Núcleo preserva físico/livre/posição; três referências saldo/indicadores, reposição e demanda/serviço/custos.
+
+## Marco final de autoria e validação — 13/10/2026
+
+Dez pacotes escritos individualmente com síntese própria, 36 arquivos (dez núcleos e 26 referências), sem scripts, binários, dependências ou cópias de recursos externos. Núcleos de 352–376 palavras. `quick_validate.py` executado e aprovado para cada um dos dez. Conferência personalizada executada: UTF-8 estrito, ausência de NUL, name/pasta, MIT, descrições até 60 caracteres, links locais existentes, pastas permitidas, até 100 arquivos/4 MiB por pacote e padrões comuns de credenciais. Leitura autoral também conferiu exemplos, definições e limites do domínio; varredura de padrões não é auditoria exaustiva de segredos.
+
+| Pacote | Arquivos | Bytes | Descrição |
+|---|---:|---:|---:|
+| commercial-proposals | 3 | 6.431 | 59 |
+| sales-coach | 3 | 6.620 | 51 |
+| prospecting | 3 | 6.916 | 50 |
+| negotiation | 3 | 6.766 | 54 |
+| customer-success | 4 | 8.356 | 51 |
+| voice-of-customer | 4 | 8.461 | 53 |
+| cfo | 4 | 8.608 | 50 |
+| financial-assistant | 4 | 8.381 | 60 |
+| procurement | 3 | 6.838 | 60 |
+| inventory | 4 | 8.337 | 49 |
+
+`git diff --check` sem erros nas unidades verificadas. Os quatro primeiros pares foram integrados em main nos commits b67b5fc, daa8fa2, ff558f1 e 3ea1313; HEAD/disco conferidos após cada commit. Compras/Estoque seguem no commit cirúrgico desta unidade, com conferência pós-commit. A soma dos dez pacotes é 75.714 bytes no disco verificado, antes de eventual normalização de fins de linha do Git.
+
+Limites: não foram executados pedidos comportamentais nesta frente, nem guard/proposta Hermes, instalação, aplicação real no Studio, contato externo, pagamentos, alterações em ERP, publicação ou push. A coordenação faz avaliação independente e gate nativo isolado. Galeria e espelho Desktop não foram editados por esta frente. Checks estruturais sustentam preparo do pacote, sem demonstrar eficácia, precisão preditiva ou execução profissional real.
