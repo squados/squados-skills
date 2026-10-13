@@ -35,3 +35,13 @@ Autoria e checks registrados ao fechar cada pacote. Avaliação comportamental i
 ## voice-of-customer — desenho anterior à autoria
 
 [Síntese](2026-10-12-voice-of-customer.md) e frentes interviews/feedback/methods. Labdotsa/assimovt → episódio e cadeia de evidência → adaptar sem saturação por quota; Om → temas revisáveis/casos contrários → aproveitar sem CI genérico; astDeniss → registros/pessoas/eventos → síntese própria sem cópia; Braun/Clarke → distinguir classificação operacional e análise reflexiva → preservar; Bain/Pew/Qualtrics → instrumento, base e não resposta → aproveitar. Descartar emoção como gravidade, preço como causa, neutro para ambiguidade e peso enterprise fixo. Referências: entrevistas, temas e indicadores.
+
+- customer-success e voice-of-customer: quick_validate, UTF-8, links, descrição até 60, arquivos/bytes, diff e HEAD/disco conferidos; commit ff558f1, incluindo correção das quatro descrições anteriores.
+
+## cfo — desenho anterior à autoria
+
+[Síntese](2026-10-12-cfo.md) e frentes planning/statements/methods. SkillMedev → ponte e drivers/capacidade → adaptar sem ARR final como receita; Oracle → fonte/período/exceções → aproveitar sem NetSuite obrigatório; Anthropic/Hermes → demonstrativos/reconciliação → síntese própria, rejeitando fórmulas inconsistentes NOL/SBC e plugs; ACCA/BDC → incremental/giro/sensibilidade → aproveitar com definição; AFP → cenário/ação → adaptar sem probabilidade inventada. Núcleo distingue orçamento/forecast, competência/caixa e cálculo/conceito; referências caixa, planejamento e decisão.
+
+## financial-assistant — desenho anterior à autoria
+
+[Síntese](2026-10-12-financial-assistant.md) e frentes payables/receivables/methods. Receiptor → origem/extração/exceção → adaptar sem fiscalidade presumida; Panaversity → documento/pedido/aceite → aproveitar quando houver; Loopfour → residual/disputa/alocação → aproveitar; cxtx → unicidade → adaptar sem assumir que 1:1 resolve remessas; AdoptAI/Paidnice → corte/aging → adaptar corrigindo agregações sem janela e skipped/pass. Descartar ajustes para fechar, soma de moedas e baixa por semelhança. Referências documentos/AP, AR/aging e conciliação.
