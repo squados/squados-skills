@@ -86,3 +86,23 @@ Desenho: núcleo com referência de identidade/dados e conteúdo/localização/d
 
 ### Marco 4 — autoria verificada
 ecommerce-competitors e product-catalog: 3 arquivos por pacote. quick_validate, UTF-8, links, descrição <=60, estrutura/tamanho e diff aprovados. Revisão autoral incluiu equivalência de oferta, cenário de preço, identidade e herança/claims. Sem coleta real, aprovação de feed ou teste comportamental.
+
+## ecommerce-conversion — desenho anterior à autoria
+Lidos síntese, matrizes journey/experiments e métodos/casos pertinentes.
+- AdLume e Finsi → pergunta de compra, estados, erro/recuperação e menor correção → adaptar; descartar sticky/app/one-page universal e snippets legados.
+- Corey/Sush → correspondência de expectativa e contexto → aproveitar; sem perdas fixas por campos ou catálogo obrigatório de testes.
+- ChatData → unidade/coorte, exposição, SRM e desenho → adaptar; sem telemetria ou helper obrigatório.
+- GrowthOS/Google/Baymard → decomposição e fricção → aproveitar como diagnóstico descritivo; descartar contribuição aritmética como causa/receita recuperável.
+Desenho: núcleo com referências de jornada e funil/experimentos. Auditoria de print funciona sem analytics; efeito e vencedor exigem dados/desenho. Sem scripts nem mudanças reais em loja.
+
+## business-writer — desenho anterior à autoria
+Lidos síntese, matrizes communication/documents e métodos/casos pertinentes.
+- Andrew → sentido/intenção/evidência → aproveitar; sem score ou marcação de cada frase.
+- Alejandro e Microsoft → leitor, organização, termos precisos e números → adaptar PT-BR; descartar Pomodoro, outline e percentuais de corte.
+- Anthropic internal-comms/RampStack → impacto, ação e estágios → adaptar conforme entrega; sem envio automático, quotas ou CTA artificial.
+- Nima/b33kman → leitura rápida e voz direta → aproveitar princípio; descartar fatos, datas/métricas adicionados pelos exemplos AFTER.
+- Purdue/Digital.gov → propósito e síntese → redação original; sem copiar exemplos protegidos.
+Desenho: núcleo de escrita/revisão com referências de comunicação e documentos/fidelidade. Sem exportadores obrigatórios; formato arquivo exige ferramenta/QA reais quando pedido.
+
+### Marco 5 — autoria verificada
+ecommerce-conversion e business-writer: 3 arquivos por pacote. quick_validate, UTF-8, links, descrição <=60, estrutura/tamanho aprovados. Revisão autoral conferiu unidade/efeito e preservação de sentido/compromissos. Avaliação independente/Studio permanecem pendentes.
