@@ -21,3 +21,8 @@ Resultados estruturais e avaliações independentes serão registrados após aut
 ### Processo Seletivo — gate estrutural
 quick_validate: Skill is valid! Quatro Markdown, 9.473 bytes, descrição 94 caracteres. UTF-8 estrito, ausência de NUL/substituição, links e limites conferidos em Python; diffcheck sem erros. Avaliação independente ainda pendente. Sem scripts, contas, instrumentos copiados ou uso Studio.
 
+### Treinamentos — gate estrutural
+quick_validate: Skill is valid! Quatro Markdown, 10.213 bytes, descrição 94 caracteres. UTF-8 estrito, links e limites conferidos em Python; diffcheck sem erros. Corrigido whitespace de EOF do registro anterior. Avaliação independente ainda pendente. Sem scripts, currículo externo, participantes ou execução Studio.
+
+### Conferência complementar na web
+Em 12/10, OPM Structured Interviews e Agent Skills specification acessíveis; mantida relação pergunta/competência e estrutura de pacote. A rota CDC quality-training-standards.html tentada retornou erro interno no leitor, sem afirmar nova leitura do conteúdo. A pesquisa anterior do CDC permanece registrada na síntese.
