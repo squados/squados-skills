@@ -1,6 +1,6 @@
 ---
 name: skill-manager
-description: Cria e melhora skills de trabalho a partir de pedidos reais, pesquisa e avaliação de resultados.
+description: Cria, pesquisa e melhora skills para o trabalho.
 license: MIT
 ---
 

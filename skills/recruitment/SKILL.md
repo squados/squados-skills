@@ -1,6 +1,6 @@
 ---
 name: recruitment
-description: Prepara vagas, entrevistas e análises de evidências para apoiar processos seletivos da equipe.
+description: Prepara vagas, entrevistas e análises de candidatos.
 license: MIT
 ---
 

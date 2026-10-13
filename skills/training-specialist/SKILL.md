@@ -1,6 +1,6 @@
 ---
 name: training-specialist
-description: Cria treinamentos e materiais de aprendizagem ligados às tarefas e aos resultados do trabalho.
+description: Cria treinamentos para tarefas do trabalho.
 license: MIT
 ---
 

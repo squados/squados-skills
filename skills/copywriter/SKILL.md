@@ -1,6 +1,6 @@
 ---
 name: copywriter
-description: Escreve e revisa textos de marketing com voz, argumentos e ofertas coerentes com o público.
+description: Escreve e revisa textos de marketing.
 license: MIT
 ---
 

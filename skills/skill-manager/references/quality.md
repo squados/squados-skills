@@ -27,7 +27,7 @@ Registre resultados favoráveis e falhas. Corrija a causa observada e experiment
 
 ## Prepare um pacote que funcione no destino
 
-Para este repositório, use `skills/<name>/SKILL.md` com `name` igual à pasta, identificador em inglês com minúsculas, números e hífen, descrição PT-BR de uma frase até 120 caracteres e `license`. Documentação e comentários em PT-BR. A descrição deve comunicar capacidade e intenção, respeitando o limite editorial local.
+Para este repositório, use `skills/<name>/SKILL.md` com `name` igual à pasta, identificador em inglês com minúsculas, números e hífen, descrição PT-BR de uma frase e `license`. O teto editorial é 120 caracteres; confira o limite real de criação do Hermes no destino e use o menor. A distribuição preparada consultada em 12/10/2026 exige até 60 caracteres na criação nativa. Documentação e comentários em PT-BR. A descrição deve comunicar capacidade e intenção, respeitando o limite editorial local.
 
 Confira licença, links, arquivos e requisitos. A contratação atual do Studio aceita até 100 arquivos e 4 MiB de conteúdo UTF-8, sem binários; recursos em `references/`, `templates/`, `scripts/` ou `assets/`. Avisos legais na raiz têm tratamento próprio pelo adaptador; preserve-os e confira colisões. Leia AGENTS.md e CONTRIBUTING.md do repositório e o contrato vigente do consumidor antes de acrescentar um pacote ao índice.
 

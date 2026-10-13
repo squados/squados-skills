@@ -20,7 +20,7 @@ Estimativa inicial: 15–35 minutos por frente de autoria em paralelo, 15–30 m
 ## Critérios e gates
 
 1. Ler síntese e componentes pertinentes; registrar contribuição e desenho antes de escrever cada pacote.
-2. Conferir frontmatter/name/license, descrição até 120 caracteres, UTF-8, links locais, recursos nas pastas aceitas, até 100 arquivos/4 MiB e ausência de segredos/binários.
+2. Conferir frontmatter/name/license, descrição até 60 caracteres (limite de criação nativa observado, menor que o teto editorial de 120), UTF-8, links locais, recursos nas pastas aceitas, até 100 arquivos/4 MiB e ausência de segredos/binários.
 3. Revisar decisões profissionais e experimentar pedidos sintéticos com leitura explícita em contexto independente; preservar inputs e outputs observados. Exemplos de aplicação são evidência limitada, sem ganho causal ou estabilidade estatística presumidos. Não fabricar baseline falho.
 4. Corrigir achados materiais e verificar novamente o trecho/caso afetado. Revisão da coordenação e avaliação independente complementam a autoria.
 5. Conferir contrato do consumidor antes de preparar o catálogo. Preservar itens externos e origens. Contratação/guard, instalação e execução real no Studio são provas distintas; testes reais do usuário são a etapa seguinte solicitada.

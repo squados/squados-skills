@@ -26,3 +26,10 @@ quick_validate: Skill is valid! Quatro Markdown, 10.213 bytes, descrição 94 ca
 
 ### Conferência complementar na web
 Em 12/10, OPM Structured Interviews e Agent Skills specification acessíveis; mantida relação pergunta/competência e estrutura de pacote. A rota CDC quality-training-standards.html tentada retornou erro interno no leitor, sem afirmar nova leitura do conteúdo. A pesquisa anterior do CDC permanece registrada na síntese.
+
+### Compatibilidade real — achado e correção
+Experimento com gallery_stage do Desktop, GitHub simulado por arquivos locais e HERMES_HOME isolado em .scratch/work-skills-contract: recruitment foi recusado como unsupported. Diagnóstico direto de proposal_names/preview_payload revelou: descrição de 94 caracteres excede limite nativo de 60, apesar de passar no quick_validate e no teto editorial 120. Ajustadas descrições de recruitment, training-specialist, copywriter e skill-manager para até 60; frentes notificadas. Referência de qualidade da manager explica verificar o menor limite. Nenhum limite do runtime foi alterado. A falha é evidência real de preparação, não teste de eficácia profissional.
+
+CDC Quality Training Standards na rota correta https://www.cdc.gov/training-development/php/qts/index.html acessível e consultado nesta etapa; mantidos princípios de necessidade, alinhamento, prática, feedback e avaliação. Erro da rota inicial permanece registrado.
+
+Após correção, os quatro pacotes passaram em gallery_stage real + pending real: status staged, origem studio-gallery e todos os recursos presentes no preview. Propostas somente no perfil isolado, sem aprovar/instalar. quick_validate dos quatro passou; diffcheck sem erros.
