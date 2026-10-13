@@ -1,6 +1,6 @@
 # Copywriter — proposta de desenho
 
-Data: 12/10/2026. Estado: proposta para revisão, ainda sem implementação. O catálogo e o padrão de autoria estão aprovados; este documento concretiza o primeiro pacote da próxima etapa. As 33 pesquisas do catálogo estão consolidadas; criação, avaliação e publicação dos pacotes permanecem posteriores.
+Data: 12/10/2026. Estado: desenho aprovado pelo usuário com “sim”, ainda sem implementação. O catálogo e o padrão de autoria estão aprovados; este documento concretiza o primeiro pacote da próxima etapa. As 33 pesquisas do catálogo estão consolidadas; criação, avaliação e publicação dos pacotes permanecem posteriores.
 
 ## Resultado pretendido
 
@@ -92,4 +92,4 @@ Criação posterior: `skills/copywriter/**`, documento de evidência em `docs/re
 
 Estimativa de agente: **20–40 minutos** para autoria, avaliação local, correções, verificação e commit; acesso a ferramentas ou falhas podem ampliar a faixa. Não inclui execução autenticada no Studio ou publicação. A implementação é sequencial; **▶ avaliações independentes** de casos disjuntos podem ocorrer em paralelo depois que o pacote estiver escrito, sem edição concorrente do núcleo.
 
-Nenhum pacote foi escrito a partir desta proposta. Próximo checkpoint: revisão deste desenho; depois, plano de execução proporcional às escolhas aprovadas.
+Nenhum pacote foi escrito a partir deste desenho. O [plano de execução](../plans/2026-10-12-copywriter.md) está preparado para revisão e confirmação do método.
