@@ -1,6 +1,6 @@
 # Copywriter — plano de implementação
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans (execução nativa recomendada) or superpowers:subagent-driven-development to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans (execução nativa recomendada) or superpowers:subagent-driven-development to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Criar o pacote autoral Copywriter para escrever e revisar textos de marketing em PT-BR com fatos, oferta e voz preservados.
 
@@ -40,8 +40,8 @@
 
 **Consome:** desenho e pesquisa aprovados. **Produz:** entradas fixas, critérios e respostas de controle, antes da escrita do pacote.
 
-- [ ] Registrar os seis casos fictícios abaixo, sem dados reais de clientes, e indicar que a avaliação acontece no harness desta sessão.
-- [ ] Executar A e D com avaliador independente sem acesso ao pacote futuro ou ao desenho; entregar apenas entrada e pedido. Registrar resposta, perguntas, recursos consultados e limitações do controle. Não alegar ausência de toda orientação se o avaliador tiver outras instruções de escrita disponíveis.
+- [x] Registrar os seis casos fictícios abaixo, sem dados reais de clientes, e indicar que a avaliação acontece no harness desta sessão.
+- [x] Executar A e D com avaliador independente sem acesso ao pacote futuro ou ao desenho; entregar apenas entrada e pedido. Registrar resposta, perguntas, recursos consultados e limitações do controle. Não alegar ausência de toda orientação se o avaliador tiver outras instruções de escrita disponíveis.
 - [ ] Identificar falhas e acertos observados. Um controle satisfatório é evidência válida; não fabricar falha nem ampliar regras só para produzir diferença.
 
 | Caso | Entrada e pedido exatos | Verificação do resultado |
@@ -109,4 +109,4 @@ Cobertura: núcleo e três referências na tarefa 2; seis pedidos e cinco focos 
 
 **Recomendação: execução nativa**, pois há um pacote pequeno com conteúdo interdependente. Avaliações e revisão independentes preservam contraponto sem introduzir coordenação de vários autores. Alternativa: execução por subagentes, com implementador/revisor por tarefa, oferece mais separação, ao custo de contextos e coordenação adicionais.
 
-Estado: plano preparado, sem execução. Próximo checkpoint: usuário revisa o plano e confirma o método; sua autorização de desenho não foi tratada como aprovação de um plano ainda inexistente.
+Estado: plano e execução nativa aprovados com “ok” em 12/10/2026. Tarefa 1 executada; controle A/D satisfatório, sem alegação de falha ou ganho. Autoria e avaliação com pacote seguem nesta sessão.
