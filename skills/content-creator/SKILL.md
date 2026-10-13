@@ -1,6 +1,6 @@
 ---
 name: content-creator
-description: Cria pautas e conteúdos úteis, organiza a produção editorial e adapta materiais por canal.
+description: Cria conteúdo e organiza a produção editorial.
 license: MIT
 ---
 

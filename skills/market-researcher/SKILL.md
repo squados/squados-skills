@@ -1,6 +1,6 @@
 ---
 name: market-researcher
-description: Investiga clientes e mercados e transforma fontes e pesquisas em evidências para decisões.
+description: Investiga clientes e mercados para orientar decisões.
 license: MIT
 ---
 

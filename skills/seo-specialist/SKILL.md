@@ -1,6 +1,6 @@
 ---
 name: seo-specialist
-description: Melhora páginas e pautas por intenção de busca e investiga problemas de visibilidade orgânica.
+description: Melhora páginas e investiga visibilidade orgânica.
 license: MIT
 ---
 

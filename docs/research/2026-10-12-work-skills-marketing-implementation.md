@@ -45,3 +45,25 @@ Desenho: núcleo de intenção/diagnóstico/prioridade; referências de conteúd
 
 ### Marco 2 — autoria verificada
 market-researcher e seo-specialist: 3 arquivos por pacote; quick_validate passou nos dois. UTF-8, links, descrição, estrutura/tamanho e diff conferidos. Revisão autoral preserva método/amostra e camadas de SEO sem números fictícios. Avaliação comportamental/Studio pendente.
+
+## creative-designer — desenho anterior à autoria
+Lidos síntese, matrizes design/production e exemplos profissionais.
+- RampStack creative-direction e Figma/Adobe layout → foco, hierarquia e interpretação das referências → adaptar; sem manifesto ou entrevista fixa.
+- Anthropic brand-guidelines/canvas-design → papéis da identidade e acabamento → aproveitar princípio; descartar paleta de terceiros e texto mínimo universal.
+- Baoyu/idrsdev → estrutura separada do estilo e continuidade → adaptar sem catálogos/copiar scripts.
+- OpenAI imagegen e Adobe export → papel de referências, texto aprovado e inspeção dos arquivos → aproveitar; não presumir ferramentas ou regenerar logo/produto fiel sem necessidade.
+Desenho: núcleo de direção/produção real; referências de composição/séries e produção/QA. Nenhum asset, fonte ou renderizador redistribuído.
+
+## marketing-traffic — desenho anterior à autoria
+Lidos síntese, matrizes paid/measurement e métodos/casos pertinentes.
+- Corey/Claude Ads guardrails → ausência distinta de desempenho ruim e resultado reconciliado → aproveitar; descartar engine desativada e pausas por limiar universal.
+- Anthropic performance-report/DMP → conclusão e funil contextual → adaptar; corrigir definição antiga de bounce e fórmulas não explicitadas.
+- Clamp → composição e denominadores → aproveitar diagnóstico; descartar IC de proporção como IC de efeito e peeking improvisado.
+- Google/Meta oficiais → atribuição, atraso e definição da conta → adaptar conferência ao pedido; crédito reatribuído não vira previsão causal.
+Desenho: núcleo analítico com referências de mensuração, plataformas e decisões/experimentos. Sem conectores ou scripts obrigatórios; cálculos pequenos podem usar ferramentas existentes.
+
+### Compatibilidade adicional — descrição Hermes
+Coordenação identificou no Hermes preparado SKILL_PROMPT_DESC_LIMIT=60 na validação de nova skill. As descrições desta frente foram reduzidas para <=60 caracteres, com frase PT-BR e ponto final. O limite editorial <=120 não era suficiente para proposta nativa; não alteramos consumidor. Corpo preservado. Gate adaptador real pertence à coordenação.
+
+### Marco 3 — autoria e correção verificadas
+creative-designer (3 arquivos) e marketing-traffic (4 arquivos): quick_validate, UTF-8, links, estrutura/tamanho e diff aprovados. Revalidado limite <=60 nos seis pacotes. Revisão autoral conferiu distinção arte/arquivo, atribuição/resultado e diferença de efeito/incerteza. Avaliação independente e Studio pendentes.

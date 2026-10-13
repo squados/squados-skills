@@ -1,6 +1,6 @@
 ---
 name: marketing-strategist
-description: Define posicionamento, prioridades e campanhas de marketing compatíveis com o negócio.
+description: Define posicionamento e campanhas de marketing.
 license: MIT
 ---
 
