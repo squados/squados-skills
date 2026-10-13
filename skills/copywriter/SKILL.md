@@ -32,7 +32,7 @@ Preserve valores, datas, unidades, condições e limites das fontes. Prova ausen
 
 ## Entrega e revisão
 
-Entregue a peça primeiro, com os elementos necessários ao uso solicitado. Separe texto da arte, legenda e orientação de produção quando pertinente. Justifique mudanças, pressupostos e lacunas materiais de forma breve. Alternativas devem mudar uma escolha reconhecível — argumento, ângulo, abertura ou ação — quando forem pedidas ou úteis à decisão.
+Entregue a peça primeiro, com os elementos necessários ao uso solicitado. Separe texto da arte, legenda e orientação de produção quando pertinente. Deixe notas de produção e lacunas editoriais em observações à equipe; na peça, inclua condições que mudam a decisão do leitor. Justifique mudanças, pressupostos e lacunas materiais de forma breve. Alternativas devem mudar uma escolha reconhecível — argumento, ângulo, abertura ou ação — quando forem pedidas ou úteis à decisão.
 
 Antes de entregar, confira leitura, voz, coerência entre promessa e oferta, suporte das afirmações e próximo passo. A revisão deve ter a dimensão do pedido. Uma hipótese editorial pode orientar teste; não é conversão prevista ou performance medida.
 

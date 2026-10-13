@@ -80,8 +80,8 @@ license: MIT
 
 - [x] Orientar identificação do trabalho, uso do contexto, pergunta material, escrita e revisão proporcional; indicar qual referência atende cada formato. Voz deve partir de amostras ou instruções disponíveis, sem guia formal obrigatório.
 - [x] Escrever as três referências com decisões e exemplos pequenos que agreguem valor. Estruturas são opções, sem número obrigatório de seções, slides, variantes, palavras ou perguntas. Campos de produção acompanham o pedido.
-- [ ] Incluir oferta de instalação somente quando uma ferramenta necessária faltar e oferta de adaptação da própria versão diante de preferência recorrente. Não acoplar envio, publicação, geração de imagens ou planejamento completo de campanha à escrita.
-- [ ] Revisar duplicação: princípios comuns ficam no núcleo; detalhes por formato nas referências; links/bibliografia de pesquisa ficam nos dossiês. Não impor um limite artificial de linhas, mas remover trechos sem contribuição demonstrável.
+- [x] Incluir oferta de instalação somente quando uma ferramenta necessária faltar e oferta de adaptação da própria versão diante de preferência recorrente. Não acoplar envio, publicação, geração de imagens ou planejamento completo de campanha à escrita.
+- [x] Revisar duplicação: princípios comuns ficam no núcleo; detalhes por formato nas referências; links/bibliografia de pesquisa ficam nos dossiês. Não impor um limite artificial de linhas, mas remover trechos sem contribuição demonstrável.
 
 ## Tarefa 3 — avaliar, corrigir e registrar a entrega local
 
@@ -89,19 +89,19 @@ license: MIT
 
 **Consome:** pacote escrito e entradas fixas. **Produz:** resultados observados, pacote ajustado, checks locais e commit com estado honesto.
 
-- [ ] Executar A–F com o pacote disponível e mesmas entradas. **▶ Paralelizável:** avaliadores podem receber grupos disjuntos; cada um tem responsabilidade apenas pelo resultado/evidência, sem editar o pacote. Comparar A/D com o controle de forma descritiva.
-- [ ] Conferir promessas, condições, voz, campos utilizáveis, perguntas e referências efetivamente consultadas. Registrar resultados e falhas sem nota fictícia de conversão. Em F, receita informada X = R$ 2.000/ROAS 2; Y = R$ 1.200/ROAS 1,5; lucro continua desconhecido.
-- [ ] Corrigir causas observadas com a menor alteração útil. Havendo correção substancial, executar um caso novo da mesma classe, sem exigir repetir casos já satisfatórios sem razão.
-- [ ] Obter revisão independente de todos os quatro arquivos contra o desenho, com indicação de achados concretos e limites. O revisor pode somente revisar; o autor aplica correções.
-- [ ] Executar o validador existente em PowerShell:
+- [x] Executar A–F com o pacote disponível e mesmas entradas. **▶ Paralelizável:** avaliadores podem receber grupos disjuntos; cada um tem responsabilidade apenas pelo resultado/evidência, sem editar o pacote. Comparar A/D com o controle de forma descritiva.
+- [x] Conferir promessas, condições, voz, campos utilizáveis, perguntas e referências efetivamente consultadas. Registrar resultados e falhas sem nota fictícia de conversão. Em F, receita informada X = R$ 2.000/ROAS 2; Y = R$ 1.200/ROAS 1,5; lucro continua desconhecido.
+- [x] Corrigir causas observadas com a menor alteração útil. Havendo correção substancial, executar um caso novo da mesma classe, sem exigir repetir casos já satisfatórios sem razão.
+- [x] Obter revisão independente de todos os quatro arquivos contra o desenho, com indicação de achados concretos e limites. O revisor pode somente revisar; o autor aplica correções.
+- [x] Executar o validador existente em PowerShell:
 
 ```powershell
 python -X utf8 C:\Users\renat\.codex\skills\.system\skill-creator\scripts\quick_validate.py "D:\Coding Projects\squados-skills\skills\copywriter"
 ```
 
-- [ ] Conferir quatro arquivos UTF-8, links locais resolvidos, nome/pasta, descrição até 120 caracteres, licença, pastas permitidas, ausência de binários/segredos, contagem até cem e soma até 4 MiB. Não instalar um runner novo para esse check. Não executar testes do Desktop nesta unidade sem alterações nele.
-- [ ] Registrar checklist de cada critério do desenho com `arquivo:linha`, evidência observada e pendências. Atualizar estado como pacote verificado localmente apenas quando a evidência permitir. Guard Hermes, ativação implícita, instalação, pedido real, performance e publicação continuam estados separados.
-- [ ] Conferir `git diff --check`, staged diff e paths; fazer commit cirúrgico dos arquivos próprios e comparar cada arquivo commitado via `git show HEAD:<path>` com o worktree. Atualizar ledger ao fechar a unidade. Não incluir `.scratch/` nem tentar a limpeza anteriormente rejeitada.
+- [x] Conferir quatro arquivos UTF-8, links locais resolvidos, nome/pasta, descrição até 120 caracteres, licença, pastas permitidas, ausência de binários/segredos, contagem até cem e soma até 4 MiB. Não instalar um runner novo para esse check. Não executar testes do Desktop nesta unidade sem alterações nele.
+- [x] Registrar checklist de cada critério do desenho com `arquivo:linha`, evidência observada e pendências. Atualizar estado como pacote verificado localmente apenas quando a evidência permitir. Guard Hermes, ativação implícita, instalação, pedido real, performance e publicação continuam estados separados.
+- [x] Conferir `git diff --check`, staged diff e paths; fazer commit cirúrgico dos arquivos próprios e comparar cada arquivo commitado via `git show HEAD:<path>` com o worktree. Atualizar ledger ao fechar a unidade. Não incluir `.scratch/` nem tentar a limpeza anteriormente rejeitada.
 
 ## Revisão do plano e execução
 
@@ -109,4 +109,4 @@ Cobertura: núcleo e três referências na tarefa 2; seis pedidos e cinco focos 
 
 **Recomendação: execução nativa**, pois há um pacote pequeno com conteúdo interdependente. Avaliações e revisão independentes preservam contraponto sem introduzir coordenação de vários autores. Alternativa: execução por subagentes, com implementador/revisor por tarefa, oferece mais separação, ao custo de contextos e coordenação adicionais.
 
-Estado: plano e execução nativa aprovados com “ok” em 12/10/2026. Tarefas 1 e 2 executadas; controle A/D satisfatório e pacote de quatro Markdown escrito. Avaliação comportamental e revisão seguem nesta sessão.
+Estado: plano e execução nativa aprovados com “ok” em 12/10/2026. Três tarefas executadas localmente: controle A/D satisfatório; quatro Markdown escritos; A–F observados, atrito B corrigido e caso novo G satisfatório; revisão independente aprovada e checks estruturais executados. [Evidência e limites](../../research/2026-10-12-copywriter-validation.md). Instalação, uso no Studio e publicação permanecem posteriores.
