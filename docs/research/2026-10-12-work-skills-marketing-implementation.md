@@ -26,3 +26,22 @@ Desenho: núcleo editorial com referências de planejamento e adaptação/format
 
 ### Marco 1 — autoria verificada
 marketing-strategist e content-creator: 3 arquivos por pacote; quick_validate passou nos dois. Checados UTF-8, descrição <=120, links locais, pastas, quantidade e tamanho; diff --check sem erros. Revisão autoral verificou especificidade profissional e limites factuais. Não houve teste comportamental, guard, instalação ou uso real; coordenação fará avaliação independente.
+
+## market-researcher — desenho anterior à autoria
+Lidos síntese e matrizes das frentes desk/design; métodos profissionais e exemplos pertinentes.
+- ECC market-research e Jamditis source-verification → achado separado de claim e fonte original → aproveitar com investigação proporcional, sem due diligence universal.
+- A Smart Bear, Phuryn e Pew → decisão/pergunta, episódios e linguagem neutra → adaptar; descartar seleção apenas de clientes satisfeitos e mínimos arbitrários.
+- Mohit synthesis/theme-validity → temas ligados a participantes e discordâncias → aproveitar; descartar preencher metadados ou citações por suposição.
+- labdotsa market-sizing → unidade, filtros e cenários → adaptar; descartar média de mercados incompatíveis e quota aspiracional como receita.
+Desenho: núcleo com referências de coleta/análise e pesquisa documental/dimensionamento. Sem scripts ou contatos externos automáticos.
+
+## seo-specialist — desenho anterior à autoria
+Lidos síntese, matrizes audit/content e fontes/trechos methods.
+- Corey/Kostja auditoria/indexing → camadas de rastreio/indexação e intenção da URL → aproveitar; descartar 404 universalmente redirecionado e noindex como privacidade.
+- Aaron/SEOmator → medido, estimado e cobertura raw/render → adaptar sem crawler obrigatório; descartar score como previsão de ranking e atributo de link incorreto para noindex.
+- Google Search Central → conteúdo útil, canonical coerente e diagnóstico segmentado → aproveitar; recursos mutáveis serão conferidos ao usar, sem congelar promessa de FAQ.
+- OpenSEO/AI playbook → localidade, superfície e menção/citação separadas → adaptar; sem créditos presumidos e quotas de entidades.
+Desenho: núcleo de intenção/diagnóstico/prioridade; referências de conteúdo e investigação técnica. Sem scripts, acesso ao Search Console ou alteração de sites presumidos.
+
+### Marco 2 — autoria verificada
+market-researcher e seo-specialist: 3 arquivos por pacote; quick_validate passou nos dois. UTF-8, links, descrição, estrutura/tamanho e diff conferidos. Revisão autoral preserva método/amostra e camadas de SEO sem números fictícios. Avaliação comportamental/Studio pendente.
