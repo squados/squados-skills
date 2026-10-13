@@ -1,6 +1,6 @@
 ---
 name: sales-coach
-description: Treina conversas de vendas e revisa atendimentos com feedback concreto e prática adequada à oferta.
+description: Treina vendas com simulação e revisão de conversas.
 license: MIT
 ---
 

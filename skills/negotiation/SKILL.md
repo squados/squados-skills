@@ -1,6 +1,6 @@
 ---
 name: negotiation
-description: Prepara negociações, avalia contrapropostas e ensaia conversas com alternativas e limites claros.
+description: Prepara negociações com alternativas e limites claros.
 license: MIT
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: prospecting
-description: Pesquisa possíveis clientes, organiza listas e prepara abordagens comerciais com evidência e contexto.
+description: Pesquisa clientes e prepara abordagens comerciais.
 license: MIT
 ---
 

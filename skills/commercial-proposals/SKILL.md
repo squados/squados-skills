@@ -1,6 +1,6 @@
 ---
 name: commercial-proposals
-description: Prepara e revisa propostas comerciais com escopo, entregas e condições coerentes com a oferta.
+description: Prepara propostas comerciais com escopo e condições claras.
 license: MIT
 ---
 
