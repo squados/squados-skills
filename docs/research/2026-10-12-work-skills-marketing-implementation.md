@@ -106,3 +106,13 @@ Desenho: núcleo de escrita/revisão com referências de comunicação e documen
 
 ### Marco 5 — autoria verificada
 ecommerce-conversion e business-writer: 3 arquivos por pacote. quick_validate, UTF-8, links, descrição <=60, estrutura/tamanho aprovados. Revisão autoral conferiu unidade/efeito e preservação de sentido/compromissos. Avaliação independente/Studio permanecem pendentes.
+
+## Fechamento da autoria — 13/10/2026
+
+Dez pacotes, 31 arquivos de pacote, 73.918 bytes. Núcleos entre 413 e 435 palavras incluindo frontmatter/títulos; nove pacotes com duas referências e marketing-traffic com três. Todos originais MIT, apenas texto, sem dependências/contas obrigatórias. Nenhum asset ou script externo copiado.
+
+Commits cirúrgicos em main: 219ff01 (estratégia/conteúdo), c9aed86 (pesquisa/SEO), 1540f2d (design/tráfego + descrições <=60), 72b87d2 (concorrentes/catálogo), a4b8227 (conversão/redação). Hash de cada arquivo no disco conferido contra blob HEAD: 31/31 iguais. Paths próprios limpos. Padrões conhecidos de segredo sem matches; não é auditoria universal. Espaços finais ausentes, UTF-8/links/limites/frontmatter conferidos. Descrições <=60 e ponto final em 10/10.
+
+Critérios conferidos na autoria: cada SKILL.md liga pedido a decisões profissionais, referências realmente presentes e oferta de instalação/adaptação com aceitação; cada pacote preserva fatos, escopo e etapa de entrega. Não exige modo, questionário fixo ou skill irmã indisponível. Os exemplos explicam decisões, sem afirmar execução observada.
+
+Limites: avaliação independente da coordenação, guard/proposta nativa, instalação e uso real continuam evidências separadas. Não executamos pesquisa de clientes, geradores, analytics, campanha, checkout ou exportação de documentos como teste comportamental. Não alteramos gallery.json/Desktop nem fizemos push/publicação. O restante do WIP foi preservado.
