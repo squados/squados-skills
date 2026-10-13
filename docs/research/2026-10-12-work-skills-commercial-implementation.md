@@ -13,3 +13,13 @@ Fontes: [síntese](2026-10-12-sales-coach.md), frentes practice/review/methods. 
 ## Evidência
 
 Autoria e checks registrados ao fechar cada pacote. Avaliação comportamental independente é responsabilidade da coordenação; não foi simulada nesta frente. Galeria, Desktop, contas externas e push fora do footprint.
+
+- commercial-proposals e sales-coach: quick_validate, UTF-8, links, descrição, arquivos/bytes e HEAD/disco conferidos; commit b67b5fc.
+
+## prospecting — desenho anterior à autoria
+
+[Síntese](2026-10-12-prospecting.md) e frentes research/outreach/methods. Corey/account-research → fato antes do ângulo → aproveitar; ProfileSpider → identidade e limpeza revisável → adaptar sem fusão por domínio isolado; Finotti → capacidade e parada da cadência → adaptar sem quotas; Risco → fato/hipótese/oferta → adaptar sem inferir dor de vaga; Salesforce/HubSpot → fit e engajamento → preservar eixos. Descartar verificador lexical, score como probabilidade, abertura como intenção e falso Re:. Núcleo com referência de pesquisa/lista e outra de abordagem/métricas.
+
+## negotiation — desenho anterior à autoria
+
+[Síntese](2026-10-12-negotiation.md) e frentes preparation/practice/methods. Stanford → preparo proporcional e pacote → aproveitar conceitualmente; Club → alternativa executável → adaptar corrigindo fórmula genérica; samber → mandato separado de limite → aproveitar, descartar memória/psicologia; Foreman → concessão condicional → adaptar sem fingir aprovação; noamseg/HowToTalk → revisão e nova tentativa → adaptar. PON/CBI → comparação e implementação → síntese. Descartar ponto médio como preço justo, ZOPA presumida e aceitação automática acima da BATNA. Referências: preparo/trocas e conversa/compromissos.
