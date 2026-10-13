@@ -42,6 +42,69 @@
         "pt-BR": "Pesquisa",
         "en": "Research"
       }
+    },
+    {
+      "id": "customer-success",
+      "title": {
+        "pt-BR": "Customer Success",
+        "en": "Customer Success"
+      }
+    },
+    {
+      "id": "procurement-inventory",
+      "title": {
+        "pt-BR": "Compras e Estoque",
+        "en": "Procurement and Inventory"
+      }
+    },
+    {
+      "id": "ecommerce",
+      "title": {
+        "pt-BR": "Ecommerce",
+        "en": "Ecommerce"
+      }
+    },
+    {
+      "id": "administration",
+      "title": {
+        "pt-BR": "Administrativo e Diretoria",
+        "en": "Administration and Leadership"
+      }
+    },
+    {
+      "id": "projects",
+      "title": {
+        "pt-BR": "Projetos",
+        "en": "Projects"
+      }
+    },
+    {
+      "id": "product",
+      "title": {
+        "pt-BR": "Produto e Inovação",
+        "en": "Product and Innovation"
+      }
+    },
+    {
+      "id": "logistics",
+      "title": {
+        "pt-BR": "Logística",
+        "en": "Logistics"
+      }
+    },
+    {
+      "id": "legal",
+      "title": {
+        "pt-BR": "Jurídico e Contratos",
+        "en": "Legal and Contracts"
+      }
+    },
+    {
+      "id": "quality",
+      "title": {
+        "pt-BR": "Qualidade",
+        "en": "Quality"
+      }
     }
   ],
   "items": [
@@ -271,6 +334,550 @@
       "source": {
         "type": "hermes",
         "path": "optional-skills/research/rss-feeds"
+      }
+    },
+    {
+      "id": "recruitment",
+      "area": "people",
+      "title": {
+        "pt-BR": "Especialista em Processo Seletivo",
+        "en": "Recruitment Specialist"
+      },
+      "description": {
+        "pt-BR": "Prepara vagas, entrevistas e análises de candidatos.",
+        "en": "Prepares roles, interviews and evidence reviews for hiring teams."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/recruitment"
+      }
+    },
+    {
+      "id": "training-specialist",
+      "area": "people",
+      "title": {
+        "pt-BR": "Especialista em Treinamentos",
+        "en": "Training Specialist"
+      },
+      "description": {
+        "pt-BR": "Cria treinamentos para tarefas do trabalho.",
+        "en": "Creates practical training for workplace tasks."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/training-specialist"
+      }
+    },
+    {
+      "id": "people-development",
+      "area": "people",
+      "title": {
+        "pt-BR": "Especialista em Desenvolvimento de Pessoas",
+        "en": "People Development Specialist"
+      },
+      "description": {
+        "pt-BR": "Prepara onboarding, feedback e planos de desenvolvimento.",
+        "en": "Supports onboarding, feedback and development plans."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/people-development"
+      }
+    },
+    {
+      "id": "copywriter",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Copywriter",
+        "en": "Copywriter"
+      },
+      "description": {
+        "pt-BR": "Escreve e revisa textos de marketing.",
+        "en": "Writes and revises marketing copy."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/copywriter"
+      }
+    },
+    {
+      "id": "marketing-strategist",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Estrategista de Marketing",
+        "en": "Marketing Strategist"
+      },
+      "description": {
+        "pt-BR": "Define posicionamento e campanhas de marketing.",
+        "en": "Develops positioning, priorities and marketing campaigns."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/marketing-strategist"
+      }
+    },
+    {
+      "id": "content-creator",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Criador de Conteúdo",
+        "en": "Content Creator"
+      },
+      "description": {
+        "pt-BR": "Cria conteúdo e organiza a produção editorial.",
+        "en": "Plans and develops content for the audience and channel."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/content-creator"
+      }
+    },
+    {
+      "id": "market-researcher",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Pesquisador de Mercado",
+        "en": "Market Researcher"
+      },
+      "description": {
+        "pt-BR": "Investiga clientes e mercados para orientar decisões.",
+        "en": "Researches customers, needs and market opportunities."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/market-researcher"
+      }
+    },
+    {
+      "id": "seo-specialist",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Especialista em SEO",
+        "en": "SEO Specialist"
+      },
+      "description": {
+        "pt-BR": "Melhora páginas e investiga visibilidade orgânica.",
+        "en": "Reviews search intent, content and search visibility."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/seo-specialist"
+      }
+    },
+    {
+      "id": "creative-designer",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Designer de Criativos",
+        "en": "Creative Designer"
+      },
+      "description": {
+        "pt-BR": "Cria e adapta peças visuais comerciais.",
+        "en": "Develops visual direction for static ads and carousels."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/creative-designer"
+      }
+    },
+    {
+      "id": "marketing-traffic",
+      "area": "marketing",
+      "title": {
+        "pt-BR": "Analista de Marketing e Tráfego",
+        "en": "Marketing and Traffic Analyst"
+      },
+      "description": {
+        "pt-BR": "Analisa campanhas e orienta investimentos de marketing.",
+        "en": "Analyzes campaigns and funnels with grounded test proposals."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/marketing-traffic"
+      }
+    },
+    {
+      "id": "commercial-proposals",
+      "area": "sales",
+      "title": {
+        "pt-BR": "Agente de Propostas Comerciais",
+        "en": "Commercial Proposals Specialist"
+      },
+      "description": {
+        "pt-BR": "Prepara propostas comerciais com escopo e condições claras.",
+        "en": "Prepares proposals with scope, deliverables and conditions."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/commercial-proposals"
+      }
+    },
+    {
+      "id": "sales-coach",
+      "area": "sales",
+      "title": {
+        "pt-BR": "Treinador de Vendedores",
+        "en": "Sales Coach"
+      },
+      "description": {
+        "pt-BR": "Treina vendas com simulação e revisão de conversas.",
+        "en": "Provides sales practice, simulations and observed feedback."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/sales-coach"
+      }
+    },
+    {
+      "id": "prospecting",
+      "area": "sales",
+      "title": {
+        "pt-BR": "Especialista em Prospecção",
+        "en": "Prospecting Specialist"
+      },
+      "description": {
+        "pt-BR": "Pesquisa clientes e prepara abordagens comerciais.",
+        "en": "Researches accounts, qualification and outreach preparation."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/prospecting"
+      }
+    },
+    {
+      "id": "negotiation",
+      "area": "sales",
+      "title": {
+        "pt-BR": "Especialista em Negociação",
+        "en": "Negotiation Specialist"
+      },
+      "description": {
+        "pt-BR": "Prepara negociações com alternativas e limites claros.",
+        "en": "Prepares alternatives, limits and negotiation scenarios."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/negotiation"
+      }
+    },
+    {
+      "id": "customer-success",
+      "area": "customer-success",
+      "title": {
+        "pt-BR": "Especialista em CS",
+        "en": "Customer Success Specialist"
+      },
+      "description": {
+        "pt-BR": "Planeja resultados dos clientes e analisa retenção.",
+        "en": "Supports internal adoption, outcomes and retention planning."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/customer-success"
+      }
+    },
+    {
+      "id": "voice-of-customer",
+      "area": "customer-success",
+      "title": {
+        "pt-BR": "Analista de Voz do Cliente",
+        "en": "Voice of Customer Analyst"
+      },
+      "description": {
+        "pt-BR": "Analisa entrevistas e feedbacks para apoiar decisões.",
+        "en": "Synthesizes feedback and customer evidence for internal decisions."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/voice-of-customer"
+      }
+    },
+    {
+      "id": "cfo",
+      "area": "finance",
+      "title": {
+        "pt-BR": "CFO - Chefe de Finanças",
+        "en": "CFO - Chief Financial Officer"
+      },
+      "description": {
+        "pt-BR": "Analisa caixa, orçamento e cenários para decisões.",
+        "en": "Analyzes cash, budgets and financial scenarios."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/cfo"
+      }
+    },
+    {
+      "id": "financial-assistant",
+      "area": "finance",
+      "title": {
+        "pt-BR": "Assistente Financeiro",
+        "en": "Financial Assistant"
+      },
+      "description": {
+        "pt-BR": "Organiza contas e confere saldos, vencimentos e conciliação.",
+        "en": "Organizes payables, receivables and reconciliations."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/financial-assistant"
+      }
+    },
+    {
+      "id": "procurement",
+      "area": "procurement-inventory",
+      "title": {
+        "pt-BR": "Especialista em Compras",
+        "en": "Procurement Specialist"
+      },
+      "description": {
+        "pt-BR": "Compara fornecedores e compras com custo e condições claras.",
+        "en": "Compares suppliers, terms and total acquisition cost."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/procurement"
+      }
+    },
+    {
+      "id": "inventory",
+      "area": "procurement-inventory",
+      "title": {
+        "pt-BR": "Analista de Estoque",
+        "en": "Inventory Analyst"
+      },
+      "description": {
+        "pt-BR": "Analisa saldos, cobertura e reposição de estoque.",
+        "en": "Analyzes stock, availability and replenishment."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/inventory"
+      }
+    },
+    {
+      "id": "ecommerce-competitors",
+      "area": "ecommerce",
+      "title": {
+        "pt-BR": "Pesquisador de Concorrentes",
+        "en": "Ecommerce Competitor Researcher"
+      },
+      "description": {
+        "pt-BR": "Compara concorrentes, produtos e ofertas de ecommerce.",
+        "en": "Compares products, prices, shipping and positioning."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/ecommerce-competitors"
+      }
+    },
+    {
+      "id": "product-catalog",
+      "area": "ecommerce",
+      "title": {
+        "pt-BR": "Especialista em Catálogo de Produtos",
+        "en": "Product Catalog Specialist"
+      },
+      "description": {
+        "pt-BR": "Organiza cadastros e melhora conteúdo de produtos.",
+        "en": "Creates product titles, descriptions, attributes and categories."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/product-catalog"
+      }
+    },
+    {
+      "id": "ecommerce-conversion",
+      "area": "ecommerce",
+      "title": {
+        "pt-BR": "Especialista em Conversão de Ecommerce",
+        "en": "Ecommerce Conversion Specialist"
+      },
+      "description": {
+        "pt-BR": "Analisa a jornada de compra e propõe melhorias e testes.",
+        "en": "Analyzes purchase journeys and proposes conversion tests."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/ecommerce-conversion"
+      }
+    },
+    {
+      "id": "data-specialist",
+      "area": "operations",
+      "title": {
+        "pt-BR": "Especialista em Dados",
+        "en": "Data Specialist"
+      },
+      "description": {
+        "pt-BR": "Analisa dados de negócios com conclusões conferíveis.",
+        "en": "Analyzes data and creates charts and decision reports."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/data-specialist"
+      }
+    },
+    {
+      "id": "presentation-specialist",
+      "area": "operations",
+      "title": {
+        "pt-BR": "Especialista em Apresentações",
+        "en": "Presentation Specialist"
+      },
+      "description": {
+        "pt-BR": "Cria apresentações HTML bonitas e utilizáveis.",
+        "en": "Creates HTML presentations with clear narratives and visuals."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/presentation-specialist"
+      }
+    },
+    {
+      "id": "spreadsheet-specialist",
+      "area": "operations",
+      "title": {
+        "pt-BR": "Especialista em Planilhas",
+        "en": "Spreadsheet Specialist"
+      },
+      "description": {
+        "pt-BR": "Cria e edita planilhas com cálculos conferíveis.",
+        "en": "Creates and reviews usable spreadsheets and formulas."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/spreadsheet-specialist"
+      }
+    },
+    {
+      "id": "executive-assistant",
+      "area": "administration",
+      "title": {
+        "pt-BR": "Assistente Executivo",
+        "en": "Executive Assistant"
+      },
+      "description": {
+        "pt-BR": "Prepara reuniões, sínteses e prioridades de trabalho.",
+        "en": "Organizes meetings, decisions, priorities and follow-ups."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/executive-assistant"
+      }
+    },
+    {
+      "id": "business-writer",
+      "area": "administration",
+      "title": {
+        "pt-BR": "Redator de Negócios",
+        "en": "Business Writer"
+      },
+      "description": {
+        "pt-BR": "Escreve e revisa comunicações e documentos de negócios.",
+        "en": "Writes clear business communications and documents."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/business-writer"
+      }
+    },
+    {
+      "id": "project-manager",
+      "area": "projects",
+      "title": {
+        "pt-BR": "Gerente de Projetos",
+        "en": "Project Manager"
+      },
+      "description": {
+        "pt-BR": "Planeja e acompanha projetos de negócios.",
+        "en": "Plans dependencies, schedules and project follow-up."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/project-manager"
+      }
+    },
+    {
+      "id": "product-specialist",
+      "area": "product",
+      "title": {
+        "pt-BR": "Especialista em Produto",
+        "en": "Product Specialist"
+      },
+      "description": {
+        "pt-BR": "Orienta decisões de produto com evidências e requisitos.",
+        "en": "Supports discovery, prioritization and product specifications."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/product-specialist"
+      }
+    },
+    {
+      "id": "logistics",
+      "area": "logistics",
+      "title": {
+        "pt-BR": "Analista de Logística",
+        "en": "Logistics Analyst"
+      },
+      "description": {
+        "pt-BR": "Analisa custos, capacidade e entregas logísticas.",
+        "en": "Analyzes delivery times, freight and logistics performance."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/logistics"
+      }
+    },
+    {
+      "id": "contract-assistant",
+      "area": "legal",
+      "title": {
+        "pt-BR": "Assistente de Contratos",
+        "en": "Contract Assistant"
+      },
+      "description": {
+        "pt-BR": "Explica, compara e prepara contratos e obrigações.",
+        "en": "Compares contract versions and prepares obligations for review."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/contract-assistant"
+      }
+    },
+    {
+      "id": "quality-specialist",
+      "area": "quality",
+      "title": {
+        "pt-BR": "Especialista em Qualidade",
+        "en": "Quality Specialist"
+      },
+      "description": {
+        "pt-BR": "Investiga falhas e verifica ações de qualidade.",
+        "en": "Investigates nonconformities and verifies corrective actions."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/quality-specialist"
+      }
+    },
+    {
+      "id": "skill-manager",
+      "area": "operations",
+      "title": {
+        "pt-BR": "Criadora de Skills de Trabalho",
+        "en": "Work Skill Manager"
+      },
+      "description": {
+        "pt-BR": "Cria, pesquisa e melhora skills para o trabalho.",
+        "en": "Researches, creates and improves workplace skills."
+      },
+      "source": {
+        "type": "squados",
+        "path": "skills/skill-manager"
       }
     }
   ]

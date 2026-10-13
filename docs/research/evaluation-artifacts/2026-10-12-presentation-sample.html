@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piloto de estoque — decisão da diretoria</title>
+<style>
+:root{color-scheme:light;--blue:#102d48;--cream:#fbf4e6;--line:#c7c3b9}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--blue);font-family:Segoe UI,Arial,sans-serif;font-size:clamp(17px,1.8vw,24px);line-height:1.5}main{max-width:1180px;margin:auto;padding:clamp(24px,5vw,70px) clamp(20px,4vw,60px) 28px}.slide{min-height:68vh}.slide[hidden]{display:none}.eyebrow{font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}h1,h2{font-size:clamp(32px,4.3vw,58px);line-height:1.08;letter-spacing:-.035em;max-width:960px;margin:24px 0 32px}h3{font-size:24px;margin-top:0}.lead{max-width:860px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:32px 0}.card{padding:26px;border:1px solid var(--line);border-radius:14px}.dark{background:var(--blue);color:var(--cream);border-color:var(--blue)}.number{font-size:clamp(48px,7vw,90px);font-weight:700;line-height:1.1;margin:12px 0}.equation{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:34px 0}.term{flex:1;min-width:180px;padding:24px;border:1px solid var(--line);border-radius:14px}.symbol{font-size:40px}.note{font-size:17px;max-width:960px}ul{padding-left:1.1em}li{margin:10px 0}.controls{border-top:1px solid var(--line);padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:14px}button{background:var(--blue);color:var(--cream);border:2px solid var(--blue);border-radius:7px;padding:12px 20px;font:600 16px Segoe UI,Arial,sans-serif;cursor:pointer}button:disabled{opacity:.35;cursor:default}button:focus-visible{outline:3px solid #8a5700;outline-offset:5px}.position{font-size:16px}.keyboard{font-size:14px;margin-top:0}table{border-collapse:collapse;width:100%;font-size:18px}th,td{text-align:left;padding:16px 12px;border-bottom:1px solid var(--line);vertical-align:top}caption{text-align:left;font-size:16px;margin-bottom:12px}@media(max-width:720px){.grid{grid-template-columns:1fr}.slide{min-height:auto}.controls{margin-top:28px}table{font-size:16px}th,td{padding:12px 6px}.equation{gap:10px}.term{min-width:100%;padding:18px}.symbol{margin:auto}.number{font-size:52px}}@media print{main{padding:0}.slide,.slide[hidden]{display:block;min-height:0;break-after:page;padding:20px}.slide:last-of-type{break-after:auto}.controls,.keyboard{display:none}h1,h2{font-size:32px}.grid{grid-template-columns:1fr 1fr}.number{font-size:48px}body{font-size:18px}.card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+<section class="slide" aria-labelledby="title1">
+<p class="eyebrow">Diretoria · proposta para decisão</p>
+<h1 id="title1">Decidir um piloto de estoque com limite de R$ 2.000</h1>
+<p class="lead">Recomendação: autorizar um piloto em duas lojas durante 30 dias para observar divergências de estoque antes de ampliar o uso.</p>
+<div class="grid"><div class="card dark"><h3>Decisão solicitada</h3><p>Confirmar escopo e orçamento máximo. Definir responsáveis, lojas e início antes de executar.</p></div><div class="card"><h3>O que ainda precisamos aprender</h3><p>Se separar físico, reservado e disponível ajuda a equipe a decidir quanto pode vender. O benefício ainda não foi demonstrado.</p></div></div>
+<p class="note">Os R$ 2.000 são o orçamento informado, sem detalhamento de custos. Esta apresentação é uma proposta; não registra aprovação nem prevê economia.</p>
+</section>
+<section class="slide" aria-labelledby="title2" hidden>
+<p class="eyebrow">Modelo de leitura do estoque</p>
+<h2 id="title2">100 físicos − 20 reservados = 80 disponíveis</h2>
+<div class="equation"><div class="term"><strong>Físico</strong><p class="number">100</p><span>unidades existentes</span></div><span class="symbol" aria-hidden="true">−</span><div class="term"><strong>Reservado</strong><p class="number">20</p><span>unidades comprometidas</span></div><span class="symbol" aria-hidden="true">=</span><div class="term dark"><strong>Disponível</strong><p class="number">80</p><span>unidades para vender</span></div></div>
+<p class="lead"><strong>Condição:</strong> esse cálculo vale se não houver outros bloqueios. Quando houver, a regra de disponível deve incorporá-los sem dupla contagem.</p>
+<p class="note">Exemplo didático fornecido, em unidades. Não é medição das lojas nem resultado do piloto.</p>
+</section>
+<section class="slide" aria-labelledby="title3" hidden>
+<p class="eyebrow">Escopo proposto</p>
+<h2 id="title3">Duas lojas, 30 dias e uma regra comum de conferência</h2>
+<div class="grid"><div class="card dark"><h3>Antes do início</h3><ul><li>Escolher duas lojas e responsáveis.</li><li>Definir os SKUs e a regra de divergência.</li><li>Registrar a linha de base e detalhar os custos dentro dos R$ 2.000.</li></ul></div><div class="card"><h3>Durante os 30 dias</h3><ul><li>Registrar físico, reservado, bloqueios e disponível na mesma referência de tempo.</li><li>Conferir uma população definida e registrar seu volume.</li><li>Documentar mudanças, exceções e dificuldades.</li></ul></div></div>
+<p class="note">Datas e pessoas ainda precisam ser definidas. A janela de linha de base deve ser acordada antes do piloto; sua duração não foi fornecida.</p>
+</section>
+<section class="slide" aria-labelledby="title4" hidden>
+<p class="eyebrow">Avaliação e próxima decisão</p>
+<h2 id="title4">Comparar divergências com janela e volume visíveis</h2>
+<table><caption>Plano de medição proposto; valores ainda não coletados.</caption><thead><tr><th scope="col">Registro</th><th scope="col">Antes</th><th scope="col">Durante / ao final</th></tr></thead><tbody><tr><th scope="row">Janela</th><td>Datas da linha de base a definir</td><td>Datas efetivas dos 30 dias</td></tr><tr><th scope="row">Volume</th><td>Conferências válidas por loja e SKU</td><td>Conferências válidas na mesma regra</td></tr><tr><th scope="row">Divergências</th><td>Quantidade e taxa: divergentes ÷ conferências válidas</td><td>Quantidade e taxa na mesma unidade</td></tr></tbody></table>
+<p class="lead">Ao final, decidir entre ajustar, ampliar ou encerrar. Conferir cobertura e mudanças no mix, volume e operação antes de interpretar a comparação.</p>
+<p class="note">Antes/depois descreve o recorte observado; sozinho não demonstra causalidade. Não há resultados nem previsão de economia. Fonte de toda a apresentação: briefing sintético desta avaliação.</p>
+</section>
+<nav class="controls" aria-label="Navegação da apresentação"><button id="previous" type="button" disabled>Anterior</button><span class="position" id="position" aria-live="polite">Tela 1 de 4</span><button id="next" type="button">Próxima</button></nav>
+<p class="keyboard">Teclado: ← e → para navegar; Home para o início; End para o fim. Tab para acessar os controles.</p>
+</main>
+<script>
+(() => {
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const previous = document.getElementById('previous');
+  const next = document.getElementById('next');
+  const position = document.getElementById('position');
+  let current = 0;
+  function show(index) {
+    const focused = document.activeElement;
+    current = Math.max(0, Math.min(slides.length - 1, index));
+    slides.forEach((slide, i) => { slide.hidden = i !== current; });
+    previous.disabled = current === 0;
+    next.disabled = current === slides.length - 1;
+    position.textContent = `Tela ${current + 1} de ${slides.length}`;
+    if (focused === next && next.disabled) previous.focus();
+    if (focused === previous && previous.disabled) next.focus();
+  }
+  previous.addEventListener('click', () => show(current - 1));
+  next.addEventListener('click', () => show(current + 1));
+  document.addEventListener('keydown', event => {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.target.closest('input,textarea,select,[contenteditable="true"]')) return;
+    const destinations = { ArrowLeft: current - 1, ArrowRight: current + 1, Home: 0, End: slides.length - 1 };
+    if (Object.prototype.hasOwnProperty.call(destinations, event.key)) { event.preventDefault(); show(destinations[event.key]); }
+  });
+  show(0);
+})();
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Skills de trabalho — estado e continuação
 
-Atualizado em 12/10/2026. Este documento é o ponto de retomada após compactação ou em uma nova sessão. Registra decisões, entregas e próximos passos; a lista definitiva está no catálogo aprovado.
+Atualizado em 13/10/2026. Este documento é o ponto de retomada após compactação ou em uma nova sessão. Registra decisões, entregas e próximos passos; a lista definitiva está no catálogo aprovado.
 
 ## Objetivo e sequência acordada
 
@@ -9,10 +9,10 @@ Criar um catálogo público de skills próprias do SquadOS para o cotidiano de n
 1. **Implementado e verificado localmente:** criar a skill que orienta criação, pesquisa, avaliação e melhoria das outras.
 2. **Concluído:** catálogo aprovado e registrado: 33 skills em 14 áreas, de uso interno.
 3. **Pesquisa documental consolidada:** 33 sínteses, cada uma com três dossiês de apoio. Métodos, skills similares, materiais e vídeos encontrados têm acesso e limites discriminados; isso não é leitura integral de toda fonte ou prova de execução.
-4. **Criação em andamento:** Copywriter implementado e verificado localmente, primeiro dos 33 pacotes. Criar e verificar os 32 restantes individualmente.
-5. **Pendente:** publicar os pacotes neste repositório e coordenar galeria/espelho do Desktop ao final.
+4. **Autoria e verificação local concluídas:** os 33 especialistas e a skill-manager estão implementados na main, com referências sob demanda. Verificação estrutural, guard e 34 propostas nativas revisáveis em perfil isolado; avaliações de pedidos sintéticos e revisão independente documentadas.
+5. **Índice local preparado:** 48 itens em 15 áreas, preservando 14 itens Hermes e acrescentando 34 próprios. Push/publicação, espelho do Desktop e testes reais da pessoa continuam separados e pendentes.
 
-O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. As 33 rodadas estão registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. Copywriter foi criado e avaliado localmente; a criação dos outros 32 pacotes e a distribuição do catálogo continuam pendentes.
+O usuário pediu a sequência acima. As 50 necessidades levantadas não significam 50 skills nem um ranking estatístico. As 33 rodadas estão registradas e consolidadas, cada uma em três frentes paralelas autorizadas: duas de skills existentes e uma de métodos profissionais e materiais recentes. O usuário autorizou modo yolo para concluir todos os pacotes e testar/melhorar depois. Os 33 especialistas foram criados; distribuição online e uso real continuam pendentes.
 
 ## Decisões aprovadas sobre o padrão
 
@@ -38,7 +38,10 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Desenho da Criadora | [Desenho](superpowers/specs/2026-10-12-criadora-de-skills-design.md) | Aprovado e implementado |
 | Plano do passo zero | [Plano](superpowers/plans/2026-10-12-criadora-de-skills.md) | Executado nativamente, com avaliações e revisão independentes |
 | Pacote atual | [skill-manager](../skills/skill-manager/SKILL.md) | Três Markdown, sem scripts e sem dependências próprias |
-| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Aprovado pelo usuário em 12/10/2026; rodada de Copywriter registrada |
+| Catálogo escolhido | [33 skills por departamento](skills-de-trabalho-catalogo.md) | Seleção preservada e todos os pacotes escritos |
+| Pacotes por departamento | [33 especialistas + manager](skills-de-trabalho-pacotes.md) | Links para todos os pacotes atuais |
+| Conclusão contínua | [Plano do lote](superpowers/plans/2026-10-12-work-skills-completion.md) | Autorização yolo; autoria, avaliação e integração locais |
+| Verificação integrada | [Evidências e limites](research/2026-10-12-work-skills-integration-validation.md) | Formato, pedidos, HTML, guard, propostas nativas e parser real |
 | Metodologia comparativa | [Atualização e validação](research/2026-10-12-skill-manager-research-validation.md) | skill-manager atualizada; revisão independente com caso sintético e checks locais |
 | Pesquisa de Copywriter | [Síntese e dossiês](research/2026-10-12-copywriter.md) | Treze SKILL.md principais, doze fontes profissionais e sete vídeos identificados; acesso e lacunas discriminados |
 | Pesquisa de Estrategista de Marketing | [Síntese e dossiês](research/2026-10-12-marketing-strategist.md) | Doze SKILL.md principais, nove fontes profissionais e quatro vídeos identificados; decisões, divergências e limites registrados |
@@ -75,22 +78,26 @@ O usuário pediu a sequência acima. As 50 necessidades levantadas não signific
 | Pesquisa de Especialista em Desenvolvimento de Pessoas | [Síntese e dossiês](research/2026-10-12-people-development.md) | Dezoito SKILL completos distintos de nove famílias, dez referências centrais e quatro entradas de mídia com acesso discriminado; onboarding, feedback, apoio, PDI e três casos autorais documentados |
 | Desenho do primeiro pacote | [Copywriter](superpowers/specs/2026-10-12-copywriter-design.md) | Desenho aprovado e implementado localmente: núcleo e três referências por formato, casos e critérios |
 | Plano do primeiro pacote | [Execução de Copywriter](superpowers/plans/2026-10-12-copywriter.md) | Execução nativa aprovada; três tarefas locais realizadas, com seis casos e um novo após ajuste |
-| Pacote Copywriter | [Skill](../skills/copywriter/SKILL.md) e [evidência](research/2026-10-12-copywriter-validation.md) | Quatro Markdown, núcleo 43 linhas, descrição 91 caracteres; controle A/D, A–F, correção/G, revisão independente e validador; ainda sem instalação/publicação |
+| Pacote Copywriter | [Skill](../skills/copywriter/SKILL.md) e [evidência](research/2026-10-12-copywriter-validation.md) | Quatro Markdown, núcleo 43 linhas, descrição atual reduzida ao limite nativo de 60 caracteres; controle A/D, A–F, correção/G, revisão independente e validador; ainda sem instalação/publicação |
 | Avaliações e limites | [Evidências](research/2026-10-12-criadora-de-skills-validation.md) | Cinco casos com/sem a nova skill, mais um caso novo; revisão independente sem achados |
 
 O pacote foi criado como `create-work-skills` no commit `a2a92b2` e depois renomeado para `skill-manager` no commit `891709f`. As instruções mantiveram o conteúdo; nome/pasta foram atualizados. Os documentos históricos de desenho, plano e avaliação ainda usam o nome de criação. **O caminho atual para utilização é `skills/skill-manager/SKILL.md`; não recriar a pasta antiga.**
 
 Validação: metadados, UTF-8, links, limites de arquivos/tamanho e revisão do conteúdo. No Windows, o validador existente foi executado com `python -X utf8`. As respostas observadas reforçaram ofertas de instalação e adaptação; revisão e pesquisa já eram satisfatórias no controle. O controle também consultou outra skill de autoria, portanto não representa um modelo sem orientação.
 
-**Ainda sem prova:** ativação implícita pelo Studio, carregamento mínimo por pedido isolado, estabilidade estatística, economia de tokens, guard/proposta Hermes, contratação, instalação e uso real autenticado no Studio. Índice e espelho do Desktop não foram alterados por esta unidade. Nenhum push ou publicação foi executado nesta conversa.
+**Prova atual do lote:** guard e proposta/preview Hermes conferidos nos 34 pacotes em perfil isolado e provedor de arquivos locais. Índice deste repo preparado e validado contra parser real; espelho do Desktop permanece com 14 itens. **Ainda sem prova:** ativação implícita pelo Studio, carregamento mínimo por pedido isolado, estabilidade estatística, economia medida de tokens, aprovação/instalação no perfil da pessoa, download público e uso real autenticado. Nenhum push ou publicação foi executado nesta conversa.
 
-## Catálogo aprovado e próximo passo
+## Catálogo aprovado e próxima fase
 
-A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 skills em 14 departamentos/áreas, para uso interno. O agrupamento em Operações mantém Dados, Apresentações e Planilhas. Customer Success apoia internamente a equipe com análise, planejamento e materiais. Os nomes e a seleção foram aprovados; fronteiras e ferramentas serão detalhadas na pesquisa.
+A lista atual está em [Catálogo aprovado](skills-de-trabalho-catalogo.md): 33 skills em 14 departamentos/áreas, para uso interno. O agrupamento em Operações mantém Dados, Apresentações e Planilhas. Customer Success apoia internamente a equipe com análise, planejamento e materiais. Os nomes e a seleção foram preservados; fronteiras e ferramentas estão nas pesquisas e nos pacotes.
 
 O arquivo [Candidatas por departamento](skills-de-trabalho-candidatas.md) preserva a origem dos agrupamentos já ajustados à escolha. Os levantamentos iniciais continuam como histórico, não como listas de produção.
 
-As 33 rodadas estão registradas nas sínteses acima, com três dossiês de fontes cada. O usuário aprovou o piloto Copywriter e autorizou prosseguir. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) prioriza comparar skills existentes e consolidar seus melhores componentes com rastreabilidade. O encaminhamento nas instruções reconhece a intenção automaticamente; ativação implícita pelo Studio segue não demonstrada. Nenhum modo precisa ser memorizado. A etapa de pesquisa foi conduzida uma skill por vez, com frentes paralelas autorizadas. Lacunas de vídeos/PT-BR, conteúdos fechados e execução estão registradas. Copywriter é o primeiro pacote implementado e verificado localmente. Próxima especialidade prevista: Estrategista de Marketing, com desenho e execução a detalhar a partir da pesquisa já consolidada; seguir com as demais individualmente. Publicação permanece prevista para o final.
+As 33 rodadas estão registradas nas sínteses acima, com três dossiês cada. A pesquisa precedeu a autoria. A criação restante foi autorizada continuamente, executada em três frentes com pastas disjuntas e coordenação para RH; desenhos e contribuições registrados antes de cada pacote. O roteiro de [Pesquisa](../skills/skill-manager/references/research.md) reconhece a intenção comparativa automaticamente; nenhum modo precisa ser memorizado. Lacunas de vídeos, conteúdos fechados e eficácia real continuam explícitas.
+
+Os 32 pacotes novos receberam 32 pedidos sintéticos e duas variações adicionais em avaliadores independentes da autoria, agrupados em três contextos. Copywriter mantém sete pedidos anteriores e dois controles. Todos os 34 passaram no quick_validate e guard nativo; 34 propostas reais preparadas em perfil isolado com referências intactas. A descrição foi reduzida a até 60 caracteres após falha de criação nativa revelar esse limite. A apresentação HTML de amostra foi conferida em Chromium real oculto, desktop/mobile e navegação.
+
+Próxima fase solicitada: testar os pacotes no fluxo de trabalho da pessoa e aprimorar conforme uso. Publicação online e reconciliação do espelho/gates do Desktop ainda não ocorreram. Não declarar os pacotes instalados ou integralmente funcionais no Studio a partir de validação local. A [verificação integrada](research/2026-10-12-work-skills-integration-validation.md) discrimina cobertura e limites.
 
 Durante a segunda e a terceira rodadas, foram apresentadas duas perguntas opcionais: ritmo de revisão (seguir marcos ou revisar cada dossiê) e uso de até 50 créditos vidIQ para transcrições. Sem resposta até a trigésima terceira rodada; as pesquisas seguiram gratuitamente em sequência, com registro de marcos. Nenhuma chamada paga vidIQ foi feita; transcrições pagas dependem da resposta. A ausência de resposta não autoriza consumo de créditos.
 
@@ -98,4 +105,4 @@ Setor e porte das empresas ainda podem orientar os exemplos e a profundidade; o 
 
 ## Como retomar
 
-Leia este arquivo, as instruções globais e o par AGENTS.md/CLAUDE.md quando existir. Confira o estado atual do Git e os caminhos antes de editar. Para a próxima etapa, consulte o pacote skill-manager, o desenho de Copywriter e sua pesquisa consolidada. Não recomece as 33 pesquisas já registradas. Atualize este documento ao fechar cada marco; preserve aqui as escolhas de catálogo quando aprovadas e links para os novos dossiês.
+Leia este arquivo, as instruções globais e o par AGENTS.md/CLAUDE.md quando existir. Confira o estado atual do Git e os caminhos antes de editar. Para a próxima etapa, consulte os pacotes atuais e a verificação integrada. Não recrie os 33 especialistas nem recomece as pesquisas já registradas. Melhorias seguem feedback concreto da pessoa; distribuição exige conferir o contrato atual e reconciliar o espelho do Desktop. Atualize este documento ao fechar cada marco; preserve aqui as escolhas de catálogo quando aprovadas e links para os novos dossiês.

@@ -50,8 +50,8 @@ As direções de trabalho orientam a pesquisa; não comprovam capacidade de exec
 
 Usar a [skill-manager](../skills/skill-manager/SKILL.md) e as decisões em [estado e continuação](skills-de-trabalho-status.md): execução flexível, intenção identificada automaticamente, progressive disclosure, concisão, scripts com benefício concreto, instalação acessível de dependências ausentes e melhoria da versão utilizada com aceitação da pessoa.
 
-## Próxima etapa
+## Implementação e uso
 
-Pesquisar uma skill por vez e registrar um dossiê com métodos profissionais, materiais, vídeos, pacotes similares, fontes e critérios de qualidade. Começar por **Copywriter**, primeira candidata apresentada pelo usuário; a ordem das demais pode ser ajustada conforme a discussão.
+A seleção acima foi preservada. As 33 pesquisas foram consolidadas antes da autoria; o usuário autorizou a conclusão contínua de todos os pacotes para testar e melhorar depois. Links dos pacotes estão em [especialistas implementados](skills-de-trabalho-pacotes.md), com evidências e limites em [estado de entrega](skills-de-trabalho-status.md).
 
-Concluir as pesquisas antes da criação individual dos pacotes, conforme a sequência acordada. Publicação e coordenação de índice/espelho do Desktop ocorrem ao final. Este documento registra a escolha; nenhuma das 33 skills foi implementada ou publicada nesta etapa.
+Pesquisa, pacote verificável, proposta revisável, aprovação/instalação, execução real e publicação são etapas diferentes. Este arquivo registra a escolha; os documentos de estado registram as entregas atuais.

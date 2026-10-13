@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "file": "docs/research/evaluation-artifacts/2026-10-12-presentation-sample.html",
+  "real_headless_browser": true,
+  "views": [
+    {
+      "viewport": "1440x1000",
+      "slide": 1,
+      "width": 1440,
+      "documentWidth": 1440,
+      "heading": "Decidir um piloto de estoque com limite de R$ 2.000"
+    },
+    {
+      "viewport": "1440x1000",
+      "slide": 2,
+      "width": 1440,
+      "documentWidth": 1440,
+      "heading": "100 físicos − 20 reservados = 80 disponíveis"
+    },
+    {
+      "viewport": "1440x1000",
+      "slide": 3,
+      "width": 1440,
+      "documentWidth": 1440,
+      "heading": "Duas lojas, 30 dias e uma regra comum de conferência"
+    },
+    {
+      "viewport": "1440x1000",
+      "slide": 4,
+      "width": 1440,
+      "documentWidth": 1440,
+      "heading": "Comparar divergências com janela e volume visíveis"
+    },
+    {
+      "viewport": "390x844",
+      "slide": 1,
+      "width": 390,
+      "documentWidth": 390,
+      "scrollHeight": 1189
+    },
+    {
+      "viewport": "390x844",
+      "slide": 2,
+      "width": 390,
+      "documentWidth": 390,
+      "scrollHeight": 1297
+    },
+    {
+      "viewport": "390x844",
+      "slide": 3,
+      "width": 390,
+      "documentWidth": 390,
+      "scrollHeight": 1161
+    },
+    {
+      "viewport": "390x844",
+      "slide": 4,
+      "width": 390,
+      "documentWidth": 390,
+      "scrollHeight": 1156
+    }
+  ],
+  "navigation": [
+    "buttons",
+    "ArrowLeft",
+    "ArrowRight",
+    "Home",
+    "End",
+    "disabled boundaries"
+  ],
+  "console_errors": [],
+  "remote_requests": [],
+  "print_tested": false,
+  "studio_tested": false
+}

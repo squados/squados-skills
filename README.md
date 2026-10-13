@@ -5,6 +5,18 @@ que a pessoa contrata com um clique no RH. O repositório guarda o índice e, qu
 caso, skills nossas em `skills/<nome>/SKILL.md`. As skills de outros repositórios ficam
 onde estão e são baixadas só na hora da contratação.
 
+## Skills próprias de trabalho
+
+Os [33 especialistas por departamento](docs/skills-de-trabalho-pacotes.md) e a
+[skill-manager](skills/skill-manager/SKILL.md) estão implementados neste checkout,
+com referências sob demanda, instruções em PT-BR e licença MIT. A manager orienta
+pesquisa comparativa, criação e melhoria pelo uso. Não há modos para memorizar.
+
+O índice local reúne 48 itens em 15 áreas: preserva os 14 itens Hermes e acrescenta
+34 pacotes próprios. Estrutura, guard e preparação de propostas foram conferidos
+localmente; instalação e uso real no Studio têm evidências próprias. Consulte o
+[estado de entrega](docs/skills-de-trabalho-status.md) para publicação e limites.
+
 ## Como o Studio lê
 
 O Studio baixa `gallery.json` da branch `main`, sem cache:
@@ -50,7 +62,7 @@ pastas `references/`, `templates/`, `scripts/` e `assets/` (um `LICENSE*`, `NOTI
 `COPYING*` na raiz da pasta vai para `references/`), sem binário, até 100 arquivos e 4 MB. O teste `src/shared/skills/gallery-content.test.ts`, no repositório do Studio, confere
 isso para os itens do Hermes.
 
-### Na lista
+### Acervo Hermes preservado
 
 | Item | Área | Origem | Por que entrou |
 |---|---|---|---|

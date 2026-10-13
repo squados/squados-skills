@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "items": 48,
+  "areas": 15,
+  "own": 34,
+  "hermes_preserved": 14,
+  "version": 1,
+  "bytes": 25225,
+  "actual_consumer_parser": "src/shared/skills/gallery.ts compiled with existing esbuild",
+  "schema_all_items": true,
+  "mirror_items": 14,
+  "mirror_matches_current": false,
+  "desktop_modified": false,
+  "published": false
+}

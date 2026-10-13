@@ -35,7 +35,7 @@ Estimativa inicial: 15–35 minutos por frente de autoria em paralelo, 15–30 m
 ## Andamento
 
 - [x] Autorização e desenho de execução contínua registrados.
-- [ ] 32 pacotes restantes escritos e conferidos individualmente.
-- [ ] Avaliação independente e correções concluídas.
-- [ ] Integração documental e preparação do catálogo verificadas.
-- [ ] Commits/main/HEAD conferidos e limites de entrega registrados.
+- [x] 32 pacotes restantes escritos e conferidos individualmente.
+- [x] 32 pedidos, duas variações e correção de compatibilidade concluídos; parecer final independente APPROVE, sem achados.
+- [x] Integração documental e preparação do catálogo verificadas: 48 itens/15 áreas; parser real e 34 propostas locais.
+- [x] Pacotes na main, 111 arquivos de HEAD conferidos e limites registrados; commit documental final será conferido pela coordenação antes da entrega.
