@@ -58,7 +58,7 @@ Autoria e checks registrados ao fechar cada pacote. Avaliação comportamental i
 
 ## Marco final de autoria e validação — 13/10/2026
 
-Dez pacotes escritos individualmente com síntese própria, 36 arquivos (dez núcleos e 26 referências), sem scripts, binários, dependências ou cópias de recursos externos. Núcleos de 352–376 palavras. `quick_validate.py` executado e aprovado para cada um dos dez. Conferência personalizada executada: UTF-8 estrito, ausência de NUL, name/pasta, MIT, descrições até 60 caracteres, links locais existentes, pastas permitidas, até 100 arquivos/4 MiB por pacote e padrões comuns de credenciais. Leitura autoral também conferiu exemplos, definições e limites do domínio; varredura de padrões não é auditoria exaustiva de segredos.
+Dez pacotes escritos individualmente com síntese própria, 35 arquivos (dez núcleos e 25 referências), sem scripts, binários, dependências ou cópias de recursos externos. Núcleos de 352–376 palavras. `quick_validate.py` executado e aprovado para cada um dos dez. Conferência personalizada executada: UTF-8 estrito, ausência de NUL, name/pasta, MIT, descrições até 60 caracteres, links locais existentes, pastas permitidas, até 100 arquivos/4 MiB por pacote e padrões comuns de credenciais. Leitura autoral também conferiu exemplos, definições e limites do domínio; varredura de padrões não é auditoria exaustiva de segredos.
 
 | Pacote | Arquivos | Bytes | Descrição |
 |---|---:|---:|---:|
@@ -73,6 +73,6 @@ Dez pacotes escritos individualmente com síntese própria, 36 arquivos (dez nú
 | procurement | 3 | 6.838 | 60 |
 | inventory | 4 | 8.337 | 49 |
 
-`git diff --check` sem erros nas unidades verificadas. Os quatro primeiros pares foram integrados em main nos commits b67b5fc, daa8fa2, ff558f1 e 3ea1313; HEAD/disco conferidos após cada commit. Compras/Estoque seguem no commit cirúrgico desta unidade, com conferência pós-commit. A soma dos dez pacotes é 75.714 bytes no disco verificado, antes de eventual normalização de fins de linha do Git.
+`git diff --check` sem erros nas unidades verificadas. Os cinco pares foram integrados em main nos commits b67b5fc, daa8fa2, ff558f1, 3ea1313 e c3f59d1; HEAD/disco conferidos após cada commit, incluindo todos os próprios paths após a última unidade. A soma dos dez pacotes é 75.714 bytes no disco verificado, antes de eventual normalização de fins de linha do Git.
 
 Limites: não foram executados pedidos comportamentais nesta frente, nem guard/proposta Hermes, instalação, aplicação real no Studio, contato externo, pagamentos, alterações em ERP, publicação ou push. A coordenação faz avaliação independente e gate nativo isolado. Galeria e espelho Desktop não foram editados por esta frente. Checks estruturais sustentam preparo do pacote, sem demonstrar eficácia, precisão preditiva ou execução profissional real.
